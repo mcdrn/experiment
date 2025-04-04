@@ -12,7 +12,7 @@
     });
 
     close.addEventListener("click", () => {
-        open.style.display = "inline";
+        open.style.display = "flex";
         close.style.display = "none";
         show.style.transform = "translateX(100%)";
     });

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/specimen.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>企業情報</title>
+</head>
+<body>
+  <header>
+    <div class="header-all">
+        <div class="header-upper">
+            <div class="header-logo">
+                <a class=header-logo href="index.html"><img src="img/logo.jpg" alt="" height="50px"></a>
+                <p class="logo-text">株式会社リライトホールディングス</p> 
+            </div>
+            <!-- <span class="material-icons" id="open-btn">menu</span> -->
+            <span class="material-icons" id="close-btn"
+              >close</span
+            >
+        </div>
+
+
+         <!-- ハンバーガーメニューのアイコン -->
+
+         <div class="hamburger material-icons" id="open-btn">
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav class="header-under">
+            <div class="index">
+                <ul class="top">
+                    <li>
+                        <a class="index-text" href="index.html">トップ <span class="index-text-english"> Top</span>
+                            </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="accordion">
+                        <a class="index-text" href="company.html">● 企業情報 <span class="index-text-english">Company Info</span>
+                        </a>
+                        <button class="toggle-btn">＋</button>
+                        </div>
+                                <div class="accordion-content">
+                                    <a href="company/message.html" class="index-more">-グループCEOメッセージ</a>
+                                    <a href="company/mission.html" class="index-more">-グループミッション・経営理念</a>
+                                    <a href="company/summary.html" class="index-more">-会社概要</a>
+                                    <a href="company/partnar.html" class="index-more">-提携先企業一覧</a>
+                                  </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="accordion">
+                        <a class="index-text"  href="business.html">事業内容 <span class="index-text-english">Business Description </span>
+                        </a>
+                        <button class="toggle-btn">＋</button>
+                   </div>
+                        <div class="accordion-content">
+                            <a href="business/holdings.html" class="index-more">-ホールディングス事業</a>
+                            <a href="business/group.html" class="index-more">-グループ会社紹介</a>
+                          </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="accordion">
+                        <a class="index-text"  href="adoption.html">採用情報 <span class="index-text-english">Careers</span>
+                        </a>
+                        <button class="toggle-btn">＋</button>
+                    </div>
+                            <div class="accordion-content">
+                                <a href="adoption/executive.html" class="index-more">-経営幹部採用</a>
+                                <a href="adoption/employee.html" class="index-more">-社員採用</a>
+                                <a href="adoption/part.html" class="index-more">-アルバイト採用</a>
+                              </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="accordion">
+                        <a class="index-text"  href="contact.html">お問い合わせ <span class="index-text-english">Contact</span></a>
+                        <button class="toggle-btn">＋</button>
+                    </div>
+                            <div class="accordion-content">
+                                <a href="contact/interviw.html" class="index-more">-会社、取材に関するお問い合わせ</a>
+                                <a href="contact/adoption.html" class="index-more">-採用に関するお問い合わせ</a>
+                                <a href="contact/cooperation.html" class="index-more">-業務提携に関するお問い合わせ</a>
+                                <a href="contact/sales.html" class="index-more">-営業の方はこちら</a>
+                              </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <body>
+        <main class="l-main p-company" id="company">
+
+            <!-- kv -->
+            <div class="m-kv m-kv--company">
+              <div class="m-kv__inner">
+                <h1 class="m-kv__ttl">
+                  <span class="m-kv__ttl--ja">企業情報</span>
+                  <span class="m-kv__ttl--en">Company Profile</span>
+                </h1>
+              </div>
+            </div>
+            <!-- /kv -->
+          
+            <!-- breadcrumb -->
+            <div class="m-breadcrumb">
+              <ul class="m-breadcrumb__list">
+                <li class="m-breadcrumb__listItem">
+                  <a href="/">トップ</a>
+                </li>
+                <li class="m-breadcrumb__listItem">
+                  <a href="/company/">企業情報</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /breadcrumb -->
+          
+            <div class="p-company__message">
+          
+              <div class="p-company__messageInner">
+                <h2 class="m-h2ttl">
+                  <span class="m-h2ttl--ja">グループCEOメッセージ</span>
+                  <span class="m-h2ttl--en">Top Message</span>
+                </h2>
+                <div class="p-company__messageImg">
+                  <picture>
+                    <source media="(max-width:750px)" srcset="https://placehold.jp/300x300.png">
+                    <img loading="lazy" decoding="async" src="https://placehold.jp/300x300.png" alt="社長メッセージ">
+                  </picture>
+                </div>
+                <p class="p-company__messageTxt">テキストテキスト<br>テキストテキストテキストテキスト</p>
+                <p class="p-company__messageName">代表取締役社長　<img loading="lazy" decoding="async" class="u-width--auto u-vaSub" src="/assets/img/company/message/message_name.svg" alt="広永勝太"></p>
+                <div class="p-company__messageBtn">
+                  <div class="m-arrowBtn">
+                    <a class="m-arrowBtn-hover" href="company/message.html">
+                      <span class="m-arrowBtn-inline">詳細はこちら</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="l-block l-block--bg">
+              <div class="l-contents">
+                <div class="l-section">
+                  <ul class="m-bnrList m-bnrList--flex m-bnrList-company">
+                    <li class="m-bnrList__item m-bnrList__item--sizeL">
+                      <a class="m-circleBtn-element" href="company/mission.html">
+                        <div class="m-bnrList__img">
+                          <picture>
+                            <source media="(max-width:750px)" srcset="https://placehold.jp/345x125.png">
+                            <img loading="lazy" decoding="async" src="https://placehold.jp/560x300.png" alt="グループミッション・経営理念">
+                          </picture>
+                        </div>
+                        <h2 class="m-bnrList__ttl m-bnrList__ttl--sizeL">
+                          <span class="ja">グループミッション・<br>経営理念</span>
+                          <span class="en">Group Mission &amp; <br>Management Philosophy</span>
+                        </h2>
+                        <div class="m-circleBtn large arrow-white"><span></span></div>
+                      </a>
+                    </li>
+                    <!-- <li class="m-bnrList__item m-bnrList__item--sizeL">
+                      <a class="m-circleBtn-element" href="/company/office/">
+                        <div class="m-bnrList__img">
+                          <picture>
+                            <source media="(max-width:750px)" srcset="https://placehold.jp/345x125.png">
+                            <img loading="lazy" decoding="async" src="https://placehold.jp/560x300.png" alt="グループ一覧">
+                          </picture>
+                        </div>
+                        <h2 class="m-bnrList__ttl m-bnrList__ttl--sizeL">
+                          <span class="ja">グループ一覧</span>
+                          <span class="en">Global Network</span>
+                        </h2>
+                        <div class="m-circleBtn large arrow-white"><span></span></div>
+                      </a>
+                    </li> -->
+                    <li class="m-bnrList__item m-bnrList__item--sizeL">
+                      <a class="m-circleBtn-element" href="company/summary.html">
+                        <div class="m-bnrList__img">
+                          <picture>
+                            <source media="(max-width:750px)" srcset="https://placehold.jp/345x125.png">
+                            <img loading="lazy" decoding="async" src="https://placehold.jp/560x300.png" alt="会社概要">
+                          </picture>
+                        </div>
+                        <h2 class="m-bnrList__ttl m-bnrList__ttl--sizeL">
+                          <span class="ja">会社概要</span>
+                          <span class="en">Company Overview</span>
+                        </h2>
+                        <div class="m-circleBtn large arrow-white"><span></span></div>
+                      </a>
+                    </li>
+                    <li class="m-bnrList__item m-bnrList__item--sizeL">
+                      <a class="m-circleBtn-element" href="company/partnar.html">
+                        <div class="m-bnrList__img">
+                          <picture>
+                            <source media="(max-width:750px)" srcset="https://placehold.jp/345x125.png">
+                            <img loading="lazy" decoding="async" src="https://placehold.jp/560x300.png" alt="沿革">
+                          </picture>
+                        </div>
+                        <h2 class="m-bnrList__ttl m-bnrList__ttl--sizeL">
+                          <span class="ja">提携先企業一覧</span>
+                          <span class="en">Alliance</span>
+                        </h2>
+                        <div class="m-circleBtn large arrow-white"><span></span></div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          
+          </main>
+    </body>
+
+    <footer>
+      <div class="footer-upper">
+          <ul class="footer-index top">
+              <li>
+                  <div class="accordion accordion-top">
+                      <a class="circle">
+                          ●　
+                      </a>
+                      <a class="index-text" href="index.html">
+                          <!-- <span class="circle"></span> -->
+                          ホーム <span class="index-text-english"> Home</span>
+                      </a>
+                      </div>
+              </li>
+          </ul>
+      <ul class="footer-index">
+          <li>
+              <div class="accordion">
+              <a class="index-text" href="company.html">企業情報 <span class="index-text-english">Company Info</span>
+              </a>
+              <button class="toggle-btn">＋</button>
+              </div>
+                      <div class="accordion-content">
+                          <a href="company/message.html" class="index-more">-グループCEOメッセージ</a>
+                          <a href="company/mission.html" class="index-more">-グループミッション・経営理念</a>
+                          <a href="company/summary.html" class="index-more">-会社概要</a>
+                          <a href="company/partnar.html" class="index-more">-提携先企業一覧</a>
+                        </div>
+          </li>
+      </ul>
+      <ul class="footer-index">
+          <li>
+              <div class="accordion">
+              <a class="index-text"  href="business.html">事業内容 <span class="index-text-english">Business Description </span>
+              </a>
+              <button class="toggle-btn">＋</button>
+         </div>
+              <div class="accordion-content">
+                  <a href="business/holdings.html" class="index-more">-ホールディングス事業</a>
+                  <a href="business/group.html" class="index-more">-グループ会社紹介</a>
+                </div>
+          </li>
+      </ul>
+      <ul class="footer-index">
+          <li>
+              <div class="accordion">
+              <a class="index-text"  href="adoption.html">採用情報<span class="index-text-english"> Recruit</span>
+              </a>
+              <button class="toggle-btn">＋</button>
+          </div>
+                  <div class="accordion-content">
+                      <a href="adoption/executive.html" class="index-more">-経営幹部採用</a>
+                      <a href="adoption/employee.html" class="index-more">-社員採用</a>
+                      <a href="adoption/part.html" class="index-more">-アルバイト採用</a>
+                    </div>
+          </li>
+      </ul>
+      <ul class="footer-index">
+          <li>
+              <div class="accordion">
+              <a class="index-text"  href="contact.html">お問い合わせ <span class="index-text-english">Contact</span></a>
+              <button class="toggle-btn">＋</button>
+          </div>
+                  <div class="accordion-content">
+                      <a href="contact/interviw.html" class="index-more">-会社、取材に関するお問い合わせ</a>
+                      <a href="contact/adoption.html" class="index-more">-採用に関するお問い合わせ</a>
+                      <a href="contact/cooperation.html" class="index-more">-業務提携に関するお問い合わせ</a>
+                      <a href="contact/sales.html" class="index-more">-営業の方はこちら</a>
+                    </div>
+          </li>
+      </ul>
+  </div>
+      <div class="copyright-tab">
+          <a href="#"><img src="img/logo-background-none.png" alt=""></a><br>
+          <div class="copyright-main">
+              <small class="copyright">&copy; REWRITE HOLDINGS all rights reserved.</small>
+
+          </div>
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

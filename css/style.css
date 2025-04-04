@@ -30,8 +30,8 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    height: 110px;
-    box-shadow: 0 0 10px -6px #000;
+    /* height: 110px; */
+    /* box-shadow: 0 0 10px -6px #000; */
     z-index: 1000;
     background-color: #fff;
     max-width: 100%;
@@ -88,6 +88,8 @@ header{
 .header-all{
     margin-top: 10px;
     margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-upper{
@@ -104,6 +106,7 @@ header{
 
 .header-under{
     height: 60px;
+    margin-top: -10px;
 }
 
 .accordion-content{
@@ -121,8 +124,8 @@ header{
     display: flex;
     height: 100%;
     justify-content: space-between;
-    width: 80%;
     margin: auto;
+    padding-right: 30px;
 }
 
 .index-text{
@@ -473,20 +476,20 @@ gap: 30px;
 
 /* 見出し */
 .text-container-2 h1 {
-    font-size: 2.5rem;
+    font-size: 40px;
     margin-bottom: 10px;
     animation-delay: 0.3s;
 }
 
 .text-container-2 h2 {
-    font-size: 2rem;
+    font-size: 25px;
     margin-bottom: 20px;
     animation-delay: 0.6s;
 }
 
 /* 段落 */
 .text-container-2 p {
-    font-size: 1.2rem;
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 15px;
     animation-delay: 0.9s;
@@ -585,7 +588,7 @@ gap: 30px;
     max-width: 800px;
     /* background: white; */
     border-radius: 10px;
-    overflow-x: hidden;
+    overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     text-decoration: none;
@@ -667,6 +670,7 @@ gap: 30px;
     background-color: #1c1c1c;
     display: flex;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .footer-text h2{
@@ -683,6 +687,9 @@ gap: 30px;
     text-decoration: underline;
 }
 
+.circle{
+    font-size: 20px;
+}
 
 
 .detailes{
@@ -693,7 +700,7 @@ gap: 30px;
 
 .copyright-tab{
     padding: 20px 0 20px 100px;
-    background-color: #fff;
+    background-color: #1a1a1a;
     display: flex;
     justify-content: space-between;
 
@@ -706,6 +713,7 @@ gap: 30px;
 
 .copyright{
     padding: 20px;
+    color: #fff;
 }
 
 
@@ -745,7 +753,7 @@ header {
     left: 0;
     width: 100%;
     height: 50px;
-    box-shadow: 0 0 10px -6px #000;
+    /* box-shadow: 0 0 10px -6px #000; */
     z-index: 1000;
     background-color: #fff;
     max-width: 100%;
@@ -757,6 +765,7 @@ header {
 
 .index-text-english{
     display: inline;
+    padding-left: 5px;
 }
 
 
@@ -804,42 +813,54 @@ header {
 
 .header-upper {
     justify-content: center;
-    height: 65px;
+    height: 0;
 }
 
 /* ハンバーガーメニューのアイコン以下2つ */
 #open-btn {
     position: absolute;
-    top: 22px;
-    right: 10%;
+    top: 10px;
+    right: 5%;
     display: block;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    background: #e93;
-    color: #fff;
-    line-height: 40px;
+    /* background: rgb(39, 135, 231); */
+    color: #000;
+    line-height: 45px;
+    width: 24px;
+    height: 10px;
+    position: fixed;
+    top: 25px;
+    right: 27px;
+    cursor: pointer;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #close-btn {
     position: absolute;
-    top: 22px;
-    right: 10%;
+    top: 10px;
+    right: 5%;
     cursor: pointer;
     user-select: none;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    background: #000;
+    /* background: #000; */
     color: #fff;
-    line-height: 40px;
+    line-height: 45px;
     display: none;
+    z-index: 999;
 }
 
 .header-under {
     transform: translateX(100%);
-    transition: transform .5s ease-in-out;
+    /* transition: transform .5s ease-in-out; */
+    transition: opacity .24s linear;
 }
 
 /* ここから追加要素 */
@@ -917,7 +938,7 @@ li {
 
 
     .header-logo img{
-        height: 50px;
+        height: 40px;
     }
 
 
@@ -941,7 +962,7 @@ li {
     }
 
     .header-all{
-        margin: 15px 0;
+        /* margin: 15px 0; */
         height: 50px;
     }
 
@@ -963,15 +984,16 @@ li {
     box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
     z-index: 999; */
     background: #222;
-    min-height: 1400px;
+    height: 900px;
     overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+    padding-top: 50px;
     }
 
     .index{
         display: block;
         padding-top: 10px;
-        overflow-y: auto;
+        width: 80%;
+        padding-right: 0;
     }
 
 
@@ -990,7 +1012,7 @@ li {
 
     .index ul li a{
         color: white;
-    font-size: 15px;
+    font-size: 14px;
     text-decoration: none;
     display: block;
     transition: color 0.3s ease;
@@ -1034,7 +1056,11 @@ li {
 
     .header-all{
         margin-left: 0;
+        display: block;
+
     }
+
+
 
 
 
@@ -1132,10 +1158,12 @@ li {
 
     .text-container-2 h1{
         font-size:  33px;
+        margin-top: 10px;
     }
 
     .text-container-2 h2{
         font-size: 25px;
+        margin-top: 10px;
     }
 
     .text-container-2 p{
@@ -1143,6 +1171,9 @@ li {
     }
 
 
+    .card-text h3{
+        font-size: 20px;
+    }
 
 
 
@@ -1172,6 +1203,40 @@ li {
         padding: 20px;
     }
 
+
+
+
+
+
+
+    .footer-upper{
+        background-color: #1a1a1a;
+        /* display: flex; */
+        padding-top: 30px;
+    }
+
+    .index-text{
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .index-more{
+        color: #fff;
+        display: block;
+        text-align: left;
+    }
+
+    .footer-index{
+        padding: 10px ;
+        width: 85%;
+        margin: auto;
+    }
+
+    .top{
+        padding-left: 0;
+    }
+
+
 }
 
 
@@ -1182,3 +1247,121 @@ li {
 .material-icons{
     display: none;
 }
+
+.swiper{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .swiper-wrapper{
+    transition-timing-function: linear;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #fcf8df;
+  }
+  
+  .swiper-slide img{
+    display: block;
+    width: auto;
+    height: 100px;
+  }
+  
+  /*↓↓↓プログレスバー用のスタイル↓↓↓*/
+  .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    transition-timing-function: linear;
+    background-color: #333;
+  }
+  
+  .swiper-pagination-progressbar{
+    position: relative;
+  }
+
+  .copyright{
+    color: #fff;
+  }
+
+  .copyright-main{
+    background-color: #1a1a1a;
+  }
+  .footer{
+    padding-bottom: 0;
+  }
+
+  .accordion-top{
+    display: flex;
+    justify-content: normal;
+  }
+
+  .circle{
+    color: #fff;
+
+  }
+
+  /* 全体設定 */
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  /* ハンバーガーメニュー本体 */
+  .hamburger {
+    width: 24px;
+    height: 10px;
+    position: fixed;
+    top: 23px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .hamburger span {
+    display: block;
+    height: 2px;
+    background: #000;
+    border-radius: 2px;
+    transition: 0.3s ease;
+  }
+  
+  /* ナビゲーションメニュー */
+  .nav-menu {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    background: #f8f8f8;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+  
+  .nav-menu.open {
+    display: block;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-menu li {
+    margin-bottom: 12px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
