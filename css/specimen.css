@@ -15591,6 +15591,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-group {
+        padding-left: 0;
         margin-top:8vw
     }
 }
@@ -16816,14 +16817,14 @@ pre.wp-block-verse {
 }
 
 .m-kv--aCompany {
-    background: url(/assets/img/recruit/a-company/a-company_kv.webp);
+    background: url(https://placehold.jp/560x300.png);
     background-size: cover;
     background-position: center left
 }
 
 @media screen and (max-width: 750px) {
     .m-kv--aCompany {
-        background:url(/assets/img/recruit/a-company/a-company_kv--sp.webp);
+        background:url(https://placehold.jp/560x300.png);
         background-size: cover;
         background-position: center left
     }
@@ -31186,6 +31187,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .p-profile__listItem {
+        display: block;
         padding:5.33333vw 0
     }
 }
@@ -31217,7 +31219,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .p-profile__listTtl {
-        width:16vw;
+        width:80px;
         font-size: 14px;
         font-size: 3.73333vw
     }
