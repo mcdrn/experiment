@@ -1,5 +1,7 @@
 @charset "utf=8";
 
+
+
 main,body {
     margin: 0;
     padding: 0;
@@ -10,7 +12,7 @@ main,body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: #f5f5f5;
+    background: #fff;
     color: #333;
 }
 
@@ -938,7 +940,7 @@ li {
 
 
     .header-logo img{
-        height: 40px;
+        /* height: 50px; */
     }
 
 
