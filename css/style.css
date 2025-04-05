@@ -1,7 +1,5 @@
 @charset "utf=8";
 
-
-
 main,body {
     margin: 0;
     padding: 0;
@@ -12,7 +10,7 @@ main,body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: #fff;
+    background: #f5f5f5;
     color: #333;
 }
 
@@ -893,6 +891,8 @@ li {
     border: solid 1px #fff;
     border-radius: 50%;
     padding: 1px 6px;
+    font-family: serif; /* OSやブラウザで変わる */
+  line-height: normal; /* 約1.2～1.4倍 */
 }
 
   /* 回転時のスタイル */
@@ -940,7 +940,7 @@ li {
 
 
     .header-logo img{
-        /* height: 50px; */
+        height: 40px;
     }
 
 

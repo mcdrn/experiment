@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/Rewrite_logo_only.png" type="image/png">
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
                     <a class=header-logo href="../index.html"><img src="../img/logo.jpg" alt="" height="50px"></a>
                     <p class="logo-text">株式会社リライトホールディングス</p> 
                 </div>
-                <span class="material-icons" id="open-btn">menu</span>
+                <!-- <span class="material-icons" id="open-btn">menu</span> -->
                 <span class="material-icons" id="close-btn"
                   >close</span
                 >
@@ -27,11 +28,16 @@
     
              <!-- ハンバーガーメニューのアイコン -->
     
+             <div class="hamburger material-icons" id="open-btn">
+              <span></span>
+              <span></span>
+            </div>
+    
             <nav class="header-under">
                 <div class="index">
                     <ul class="top">
                         <li>
-                            <a class="index-text" href="../index.html">トップ <span class="index-text-english"> Top</span>
+                            <a class="index-text" href="../index.html">ホームホーム <span class="index-text-english"> Home</span>
                                 </a>
                         </li>
                     </ul>
@@ -53,7 +59,7 @@
                     <ul>
                         <li>
                             <div class="accordion">
-                            <a class="index-text"  href="../business.html">事業内容 <span class="index-text-english">Business Description </span>
+                            <a class="index-text"  href="../business.html">● 事業内容 <span class="index-text-english">Business Description </span>
                             </a>
                             <button class="toggle-btn">＋</button>
                        </div>
@@ -66,7 +72,7 @@
                     <ul>
                         <li>
                             <div class="accordion">
-                            <a class="index-text"  href="../adoption.html">採用情報<span class="index-text-english"> Careers</span>
+                            <a class="index-text"  href="../adoption.html">採用情報 <span class="index-text-english">Careers</span>
                             </a>
                             <button class="toggle-btn">＋</button>
                         </div>
@@ -413,6 +419,19 @@
     </main>
     <footer>
         <div class="footer-upper">
+            <ul class="footer-index top">
+                <li>
+                    <div class="accordion accordion-top">
+                        <a class="circle">
+                            ●　
+                        </a>
+                        <a class="index-text" href="../index.html">
+                            <!-- <span class="circle"></span> -->
+                            ホーム <span class="index-text-english"> Home</span>
+                        </a>
+                        </div>
+                </li>
+            </ul>
         <ul class="footer-index">
             <li>
                 <div class="accordion">
@@ -444,7 +463,7 @@
         <ul class="footer-index">
             <li>
                 <div class="accordion">
-                <a class="index-text"  href="../adoption.html">採用情報<span class="index-text-english"> Careers</span>
+                <a class="index-text"  href="../adoption.html">採用情報<span class="index-text-english"> Recruit</span>
                 </a>
                 <button class="toggle-btn">＋</button>
             </div>
@@ -471,8 +490,11 @@
         </ul>
     </div>
         <div class="copyright-tab">
-            <a href="#"><img src="../img/logo.jpg" alt=""></a><br>
-            <small class="copyright">&copy; REWRITE HOLDINGS all rights reserved.</small>
+            <a href="#"><img src="../img/logo-background-none.png" alt=""></a><br>
+            <div class="copyright-main">
+                <small class="copyright">&copy; REWRITE HOLDINGS all rights reserved.</small>
+  
+            </div>
         </div>
     </footer>
       <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>

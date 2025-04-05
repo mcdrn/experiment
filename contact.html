@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="css/form.css">
+      <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/style.css">
     <title>お問い合わせ</title>
+    <link rel="icon" href="img/Rewrite_logo_only.png" type="image/png">
 </head>
 <body>
     <header>
@@ -103,21 +104,21 @@
     </header>
 
     <main>
-        <main class="l-main p-inquiry" id="inquiry">
+        <!-- <main class="l-main p-inquiry" id="inquiry"> -->
 
             <!-- kv -->
-            <div class="m-kv m-kv--inquiry">
+            <!-- <div class="m-kv m-kv--inquiry">
               <div class="m-kv__inner">
                 <h1 class="m-kv__ttl">
                   <span class="m-kv__ttl--ja black">お問い合わせ</span>
                   <span class="m-kv__ttl--en">Contact</span>
                 </h1>
               </div>
-            </div>
+            </div> -->
             <!-- /kv -->
           
             <!-- breadcrumb -->
-            <div class="m-breadcrumb">
+            <!-- <div class="m-breadcrumb">
               <ul class="m-breadcrumb__list">
                 <li class="m-breadcrumb__listItem">
                   <a href="/">トップ</a>
@@ -126,7 +127,7 @@
                   <a href="/inquiry/">お問い合わせ</a>
                 </li>
               </ul>
-            </div>
+            </div> -->
             <!-- /breadcrumb -->
           
             <!-- <div class="l-block l-block--bg mt">
@@ -242,7 +243,7 @@
               </div>
             </div> -->
           
-            <div class="l-block">
+            <!-- <div class="l-block">
               <div class="l-contents">
                 <div class="l-section">
                   <h2 class="m-h2ttl">
@@ -298,7 +299,7 @@
                         </h2>
                         <div class="m-circleBtn large arrow-white"><span></span></div>
                       </a>
-                    </li>
+                    </li> -->
                     <!-- <li class="m-bnrList__item m-bnrList__item--sizeL">
                       <a class="m-circleBtn-element" href="/inquiry/form03/">
                         <div class="m-bnrList__img">
@@ -323,11 +324,338 @@
                         <div class="m-circleBtn large arrow-white"><span></span></div>
                       </a>
                     </li> -->
-                  </ul>
+                  <!-- </ul>
                 </div>
               </div>
             </div>
-          </main>
+          </main> -->
+          <div class="contact-wrap">
+            <div class="tab-layout">
+                <div class="form-tabs">
+                  <button class="tab-btn active" data-form="form1">会社、取材に関するお問い合わせ</button>
+                  <button class="tab-btn" data-form="form2">採用に関するお問い合わせ</button>
+                  <button class="tab-btn" data-form="form3">業務提携に関するお問い合わせ</button>
+                  <button class="tab-btn" data-form="form4">営業に関するお問い合わせ</button>
+                </div>
+              
+              </div>
+              <div class="form-content">
+                <div id="form1" class="form-box active"> <form class="contact-form">
+        
+                  <h2 class="contact-saiyou">会社、取材に関するお問い合わせ</h2>
+              
+                  <div class="form-block">
+                    <label>お名前 <span class="required">必須</span></label>
+                    <div class="name-fields">
+                      <input type="text" placeholder="姓" required>
+                      <input type="text" placeholder="名" required>
+                    </div>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>フリガナ <span class="required">必須</span></label>
+                    <div class="name-fields">
+                      <input type="text" placeholder="セイ" required>
+                      <input type="text" placeholder="メイ" required>
+                    </div>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>メールアドレス <span class="required">必須</span></label>
+                    <input type="email" required>
+                    <p class="note">▼確認のため、再度メールアドレスの入力をお願いします</p>
+                    <input type="email" required>
+                  </div>
+              
+                  <div class="form-block phone-number">
+                    <label>電話番号</label>
+                    <input type="tel">
+                  </div>
+              
+                  <div class="form-block">
+                    <label>性別</label>
+                    <select class="choice">
+                      <option value="">選択してください</option>
+                      <option value="male">男性</option>
+                      <option value="female">女性</option>
+                      <option value="other">その他</option>
+                    </select>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>年齢</label>
+                    <select class="choice">
+                      <option value="">選択してください</option>
+                      <option value="10">10代</option>
+                      <option value="20">20代</option>
+                      <option value="30">30代</option>
+                      <option value="40">40代</option>
+                      <option value="50">50代</option>
+                      <option value="60">60代以上</option>
+                    </select>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>ご住所</label>
+                    <div class="postal-code">
+                      <span>〒</span>
+                      <input type="text" class="number" placeholder="000-0000">
+                      <button type="button">住所検索</button>
+                    </div>
+                    <input type="text" class="prefectures" placeholder="都道府県">
+                    <input type="text" placeholder="市区町村・番地">
+                    <input type="text" placeholder="建物名・部屋番号">
+                  </div>
+        
+                  <div class="form-block">
+                      <label>お問い合わせ内容 <span class="required">必須</span></label>
+                      <textarea rows="6" placeholder="お問い合わせ内容を入力してください" required></textarea>
+                    </div>
+                    
+              
+                  <button type="submit">送信する</button>
+              
+                </form></div>
+                <div id="form2" class="form-box"> <form class="contact-form">
+        
+                  <h2 class="contact-saiyou">採用に関するお問い合わせ</h2>
+              
+                  <div class="form-block">
+                    <label>お名前 <span class="required">必須</span></label>
+                    <div class="name-fields">
+                      <input type="text" placeholder="姓" required>
+                      <input type="text" placeholder="名" required>
+                    </div>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>フリガナ <span class="required">必須</span></label>
+                    <div class="name-fields">
+                      <input type="text" placeholder="セイ" required>
+                      <input type="text" placeholder="メイ" required>
+                    </div>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>メールアドレス <span class="required">必須</span></label>
+                    <input type="email" required>
+                    <p class="note">▼確認のため、再度メールアドレスの入力をお願いします</p>
+                    <input type="email" required>
+                  </div>
+              
+                  <div class="form-block phone-number">
+                    <label>電話番号</label>
+                    <input type="tel">
+                  </div>
+              
+                  <div class="form-block">
+                    <label>性別</label>
+                    <select class="choice">
+                      <option value="">選択してください</option>
+                      <option value="male">男性</option>
+                      <option value="female">女性</option>
+                      <option value="other">その他</option>
+                    </select>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>年齢</label>
+                    <select class="choice">
+                      <option value="">選択してください</option>
+                      <option value="10">10代</option>
+                      <option value="20">20代</option>
+                      <option value="30">30代</option>
+                      <option value="40">40代</option>
+                      <option value="50">50代</option>
+                      <option value="60">60代以上</option>
+                    </select>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>ご住所</label>
+                    <div class="postal-code">
+                      <span>〒</span>
+                      <input type="text" class="number" placeholder="000-0000">
+                      <button type="button">住所検索</button>
+                    </div>
+                    <input type="text" class="prefectures" placeholder="都道府県">
+                    <input type="text" placeholder="市区町村・番地">
+                    <input type="text" placeholder="建物名・部屋番号">
+                  </div>
+        
+                  <div class="form-block">
+                      <label>お問い合わせ内容 <span class="required">必須</span></label>
+                      <textarea rows="6" placeholder="お問い合わせ内容を入力してください" required></textarea>
+                    </div>
+                    
+              
+                  <button type="submit">送信する</button>
+              
+                </form></div>
+                <div id="form3" class="form-box">  <form class="contact-form">
+        
+                  <h2 class="contact-saiyou">業務提携に関するお問い合わせ</h2>
+              
+                  <div class="form-block">
+                    <label>お名前 <span class="required">必須</span></label>
+                    <div class="name-fields">
+                      <input type="text" placeholder="姓" required>
+                      <input type="text" placeholder="名" required>
+                    </div>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>フリガナ <span class="required">必須</span></label>
+                    <div class="name-fields">
+                      <input type="text" placeholder="セイ" required>
+                      <input type="text" placeholder="メイ" required>
+                    </div>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>メールアドレス <span class="required">必須</span></label>
+                    <input type="email" required>
+                    <p class="note">▼確認のため、再度メールアドレスの入力をお願いします</p>
+                    <input type="email" required>
+                  </div>
+              
+                  <div class="form-block phone-number">
+                    <label>電話番号</label>
+                    <input type="tel">
+                  </div>
+              
+                  <div class="form-block">
+                    <label>性別</label>
+                    <select class="choice">
+                      <option value="">選択してください</option>
+                      <option value="male">男性</option>
+                      <option value="female">女性</option>
+                      <option value="other">その他</option>
+                    </select>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>年齢</label>
+                    <select class="choice">
+                      <option value="">選択してください</option>
+                      <option value="10">10代</option>
+                      <option value="20">20代</option>
+                      <option value="30">30代</option>
+                      <option value="40">40代</option>
+                      <option value="50">50代</option>
+                      <option value="60">60代以上</option>
+                    </select>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>ご住所</label>
+                    <div class="postal-code">
+                      <span>〒</span>
+                      <input type="text" class="number" placeholder="000-0000">
+                      <button type="button">住所検索</button>
+                    </div>
+                    <input type="text" class="prefectures" placeholder="都道府県">
+                    <input type="text" placeholder="市区町村・番地">
+                    <input type="text" placeholder="建物名・部屋番号">
+                  </div>
+        
+                  <div class="form-block">
+                      <label>御社名</label>
+                      <input type="text">
+                    </div>
+                  <div class="form-block">
+                      <label>部署名</label>
+                      <input type="text">
+                    </div>
+        
+                  <div class="form-block">
+                      <label>お問い合わせ内容 <span class="required">必須</span></label>
+                      <textarea rows="6" placeholder="お問い合わせ内容を入力してください" required></textarea>
+                    </div>
+                    
+              
+                  <button type="submit">送信する</button>
+              
+                </form></div>
+                <div id="form4" class="form-box"> <form class="contact-form">
+        
+                  <h2 class="contact-saiyou">営業に関するお問い合わせ</h2>
+              
+                  <div class="form-block">
+                    <label>お名前 <span class="required">必須</span></label>
+                    <div class="name-fields">
+                      <input type="text" placeholder="姓" required>
+                      <input type="text" placeholder="名" required>
+                    </div>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>フリガナ <span class="required">必須</span></label>
+                    <div class="name-fields">
+                      <input type="text" placeholder="セイ" required>
+                      <input type="text" placeholder="メイ" required>
+                    </div>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>メールアドレス <span class="required">必須</span></label>
+                    <input type="email" required>
+                    <p class="note">▼確認のため、再度メールアドレスの入力をお願いします</p>
+                    <input type="email" required>
+                  </div>
+              
+                  <div class="form-block phone-number">
+                    <label>電話番号</label>
+                    <input type="tel">
+                  </div>
+              
+                  <div class="form-block">
+                    <label>性別</label>
+                    <select class="choice">
+                      <option value="">選択してください</option>
+                      <option value="male">男性</option>
+                      <option value="female">女性</option>
+                      <option value="other">その他</option>
+                    </select>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>年齢</label>
+                    <select class="choice">
+                      <option value="">選択してください</option>
+                      <option value="10">10代</option>
+                      <option value="20">20代</option>
+                      <option value="30">30代</option>
+                      <option value="40">40代</option>
+                      <option value="50">50代</option>
+                      <option value="60">60代以上</option>
+                    </select>
+                  </div>
+              
+                  <div class="form-block">
+                    <label>ご住所</label>
+                    <div class="postal-code">
+                      <span>〒</span>
+                      <input type="text" class="number" placeholder="000-0000">
+                      <button type="button">住所検索</button>
+                    </div>
+                    <input type="text" class="prefectures" placeholder="都道府県">
+                    <input type="text" placeholder="市区町村・番地">
+                    <input type="text" placeholder="建物名・部屋番号">
+                  </div>
+        
+                  <div class="form-block">
+                      <label>お問い合わせ内容 <span class="required">必須</span></label>
+                      <textarea rows="6" placeholder="お問い合わせ内容を入力してください" required></textarea>
+                    </div>
+                    
+              
+                  <button type="submit">送信する</button>
+              
+                </form></div>
+              </div>
+        
+          </div>
     </main>
 
     <footer>
@@ -412,6 +740,7 @@
   </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/form.js"></script>
 <script src="js/main.js"></script>
 <script src="js/script.js"></script>
 </html>

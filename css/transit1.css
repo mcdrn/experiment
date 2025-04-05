@@ -2323,7 +2323,8 @@ body button {
 
 @media(width <= 640px) {
     .thd_top__vision .wp-block-columns .wp-block-column .wp-block-heading {
-        font-size: 2rem;
+        
+        font-size: 23px;
         margin-top: 25px;
         text-align: center
     }
@@ -5679,6 +5680,7 @@ body button {
 }
 
 .js-inview.is-inview .smb-section__header .smb-section__title {
+    font-size: 37px;
     transform: scaleX(1);
     transition: transform .4s cubic-bezier(.165,.84,.44,1)
 }
@@ -6042,8 +6044,4 @@ body button {
 
 .error404 .l-contents__sidebar {
     display: none
-}
-
-.c-entry  body{
-    background-color: #fff;
 }
