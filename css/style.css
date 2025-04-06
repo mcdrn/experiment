@@ -889,7 +889,7 @@ li {
     background: none;
     cursor: pointer;
     transition: transform 0.3s ease;
-    border: solid 1px #fff;
+    /* border: solid 1px #fff; */
     border-radius: 50%;
     padding: 1px 6px;
     font-family: serif; /* OSやブラウザで変わる */
