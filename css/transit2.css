@@ -1,4 +1,4 @@
-/* .smb-section {
+.smb-section {
     --smb-section--color: currentColor;
     --smb-section--min-height: 0px;
     --smb-section--padding: var(--_padding3);
@@ -193,6 +193,7 @@
 }
 
 .smb-section__contents-wrapper {
+    background-color: #f5f5f5;
     margin-left: auto;
     margin-right: auto;
     max-width: min(100%,var(--smb-section--contents-wrapper-width));
@@ -347,4 +348,4 @@
 :where(.smb-section__body.is-layout-constrained>*) {
     --wp--style--global--content-size: 100%;
     --wp--style--global--wide-size: 100%
-} */
+}

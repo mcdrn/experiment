@@ -81,8 +81,9 @@ body button {
 
 @media(width <= 640px) {
     .c-container,.p-archive {
-        padding-left: 20px;
-        padding-right: 20px
+        
+        padding-left: 0px;
+        padding-right: 0px
     }
 }
 
@@ -198,7 +199,7 @@ body button {
 }
 
 .thd_mod-arw__link:before {
-    background-image: url(../img/icon_arw_r_circle_bk.svg);
+    background-image: url(https://www.transit-web.com/_wp/wp-content/plugins/my-snow-monkey/img/icon_arw_r_circle_bk.svg);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: contain;
@@ -213,6 +214,10 @@ body button {
 }
 
 .thd_mod-arw__link a {
+    font-family: "Noto Serif JP", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    font-size: 15px;
     text-decoration: none
 }
 
@@ -289,7 +294,7 @@ body button {
 
 @media(width <= 640px) {
     .thd_mod-bottom_next_link .smb-btn {
-        font-size: 1.8rem;
+        font-size: 18px;
         height: 123px
     }
 }
@@ -298,13 +303,13 @@ body button {
     border-right: 1px solid #fff;
     border-top: 1px solid #fff;
     content: "";
-    height: 25px;
+    height: 20px;
     mix-blend-mode: difference;
     position: absolute;
-    right: 60px;
+    /* right: 60px; */
     top: 50%;
     transform: translateY(-50%) rotate(45deg);
-    width: 25px
+    width: 20px
 }
 
 @media(width <= 640px) {
@@ -553,8 +558,10 @@ body button {
 
 @media(width <= 640px) {
     .smb-section__header .smb-section__title {
-        font-size: 2.6rem;
+        font-size: 30px;
+        margin-bottom: 10px;
         line-height: 1
+
     }
 }
 
@@ -570,6 +577,7 @@ body button {
 
 @media(width <= 640px) {
     .smb-section__header .smb-section__lede {
+        letter-spacing: 3px;
         font-size: 1.3rem;
         margin-top: 3px
     }
@@ -2183,6 +2191,8 @@ body button {
 }
 
 .thd_top__news .is-layout-constrained {
+    width: 90%;
+    margin: auto;
     position: static
 }
 
@@ -5823,12 +5833,23 @@ body button {
 }
 
 .thd_company__menbers__item.is-inview .thd_company__menbers__item__name,.thd_company__menbers__item.is-inview .thd_company__menbers__item__name__en {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 15px;
+    color: #000;
+    margin-top: 0;
     opacity: 1;
     transform: translateX(0);
     transition: transform .8s ease-out,opacity .8s linear
 }
 
+
+
 .thd_company__menbers__item.is-inview .thd_company__menbers__item__btn,.thd_company__menbers__item.is-inview .thd_company__menbers__item__text {
+    margin-top: 5px;
+    color: #000;
+    font-size: 14px;
     opacity: 1;
     transform: translateX(0);
     transition: transform .8s ease-out .2s,opacity .8s linear .2s
@@ -6044,4 +6065,34 @@ body button {
 
 .error404 .l-contents__sidebar {
     display: none
+}
+
+@media(max-width: 480px){
+    .exective-name-jp{
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+
+    .thd_company__menbers__item{
+        margin-top: 0;
+    }
+
+    .executive-names{
+        font-size: 12px;
+    }
+
+    .thd_company__menbers__item__name-2{
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .executive-company{
+        margin-bottom: 5px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .executive-wrap{
+        padding: 10px;
+    }
 }

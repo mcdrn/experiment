@@ -865,7 +865,7 @@ header {
 
 /* ここから追加要素 */
 ul {
-    border-bottom: solid 1px #9c9c9c;
+    
     margin: 0;
 }
 
@@ -882,6 +882,7 @@ li {
 }
 
 .toggle-btn{
+    width: 35.6px;
     color: #fff;
     font-size: 20px;
     border: none;
@@ -1228,14 +1229,28 @@ li {
         text-align: left;
     }
 
+    .index-main{
+        border-bottom: solid 1px #9c9c9c;
+    }
+
     .footer-index{
         padding: 10px ;
         width: 85%;
         margin: auto;
+        border-bottom: solid 1px #9c9c9c;
     }
 
     .top{
         padding-left: 0;
+    }
+
+
+    .vision-message-innner{
+        font-size: 18px;
+    }
+
+    .news-background{
+        background-color: #fff;
     }
 
 
