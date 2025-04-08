@@ -1253,7 +1253,23 @@ li {
         background-color: #fff;
     }
 
+    /* .wp-block-navigation-full{
+        display: block;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    } */
 
+    .container-upper , .container-downer{
+        display: flex;
+        margin: auto;
+        width: auto;
+        gap: 15px;
+    }
+
+    .smb-section__inner-summary{
+        display: block;
+    }
 }
 
 

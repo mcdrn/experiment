@@ -10480,6 +10480,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .l-contents {
+        /* margin-top: 70px; */
         padding-left:calc(30/750*100vw);
         padding-right: calc(30/750*100vw)
     }
@@ -12366,7 +12367,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .l-main {
-        margin-top:13.33333vw
+        margin-top: 100px;
     }
 }
 
@@ -14260,10 +14261,16 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-breadcrumb {
-    
+        
         width:92vw;
         margin: 1.33333vw auto 0
     
+    }
+
+    .m-breadcrumb-company{
+        background-color: #fff;
+        margin: 0;
+        width: 100%;
     }
 }
 
@@ -14281,7 +14288,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-breadcrumb__list {
-        margin: 5px 0;
+        margin: 0;
         -ms-flex-wrap:wrap;
         flex-wrap: wrap
         
@@ -31169,6 +31176,12 @@ pre.wp-block-verse {
         width:84vw;
         margin: 5.33333vw auto 13.33333vw
     }
+
+    .p-profile__list-upper{
+        width: 100%;
+        background-color: #fff;
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -31197,6 +31210,15 @@ pre.wp-block-verse {
         text-align: left;
         display: block;
         padding:5.33333vw 0
+    }
+
+    .p-profile__listItem-upper{
+        text-align: left;
+        width: 85%;
+        display: block;
+        margin: auto;
+        padding:5.33333vw 0
+
     }
 }
 
