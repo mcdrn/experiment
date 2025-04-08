@@ -13238,6 +13238,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-arrowBtn--mt40 {
+        width: 70%;
         margin:10.66667vw auto 0
     }
 }

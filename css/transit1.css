@@ -1950,6 +1950,44 @@ body button {
     width: 100%
 }
 
+.thd_top__kv__main__img:after {
+    content: url("https://placehold.jp/text/3d4070/ffffff/300x300.png?text=text%0A");
+    color: #fff;
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .thd_top__kv__main__img2:after {
+    content: "全てのクライアントにとって､";
+    color: #000;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-45%, -55%);
+} 
+
+.thd_top__kv__main__img3:after {
+    content: "価値あるサービスへ";
+    color: #000;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    border: #000 double 1px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-45%, -60%);
+}  */
+
 .thd_top__kv__main__img img {
     aspect-ratio: 1266/500;
     height: 100%;
