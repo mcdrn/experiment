@@ -205,6 +205,10 @@
     width: auto
 }
 
+.smb-section__contents-wrapper-exective{
+    background-color: #f5f5f5;
+}
+
 .smb-section__contents-wrapper-group{
     background-color: #fff;
 }

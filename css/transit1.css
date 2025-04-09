@@ -71,7 +71,8 @@ body button {
 
 .c-fluid-container {
     padding-left: 0;
-    padding-right: 0
+    padding-right: 0;
+
 }
 
 .c-container,.p-archive {
@@ -110,6 +111,7 @@ body button {
 }
 
 .p-entry-content>:not(:first-child) {
+    background-color: #fff;
     margin-top: 0
 }
 
@@ -5388,7 +5390,8 @@ body button {
 @media(width <= 640px) {
     .smf-action .smf-button-control__control {
         border-radius: 30px;
-        height: 60px
+        height: 60px;
+        margin: auto;
     }
 }
 
