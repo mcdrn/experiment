@@ -31183,12 +31183,13 @@ pre.wp-block-verse {
         width: 100%;
         background-color: #fff;
         margin-top: 0;
+        margin-bottom: 0;
     }
 
     .p-profile__list-downer{
         margin: 0;
         width: 100%;
-        padding-top: 20px;
+        padding-top: 50px;
         background-color: #fafafa;
     }
 }
