@@ -105,6 +105,7 @@ body button {
 }
 
 .p-entry-content>:not(:last-child) {
+    /* background-color: #fff; */
     margin-bottom: 0
 }
 
@@ -3708,6 +3709,7 @@ body button {
 }
 
 .thd_group__item.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+    text-align: left;
     flex-basis: unset!important;
     flex-grow: unset!important
 }
@@ -5506,6 +5508,7 @@ body button {
 
 @media(width < 1024px) {
     .thd_contact__notes .smb-section__body {
+        background-color: #fff;
         padding-top: 40px
     }
 }

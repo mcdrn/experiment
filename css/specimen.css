@@ -17318,6 +17318,7 @@ pre.wp-block-verse {
 }
 
 .m-lead {
+    padding-top: 25px;
     text-align: center
 }
 
@@ -17358,6 +17359,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-lead__txt:not(:first-child) {
+        font-size: 27px;
         margin-top:calc(20/750*100vw)
     }
 }
@@ -31182,6 +31184,13 @@ pre.wp-block-verse {
         background-color: #fff;
         margin-top: 0;
     }
+
+    .p-profile__list-downer{
+        margin: 0;
+        width: 100%;
+        padding-top: 20px;
+        background-color: #fafafa;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -31740,6 +31749,11 @@ pre.wp-block-verse {
 
     .group-company-name{
         font-weight: 600;
+    }
+
+    .m-lead__ttl-3{
+        font-size: 35px;
+        margin-bottom: 10px;
     }
 }
 

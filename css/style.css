@@ -1204,6 +1204,8 @@ li {
     .copyright-tab{
         display: block;
         padding: 20px;
+        padding-top: 40px;
+        line-height: 60px;
     }
 
 
@@ -1269,6 +1271,10 @@ li {
 
     .smb-section__inner-summary{
         display: block;
+    }
+
+    .smb-section__header-2{
+        margin-bottom: 25px;
     }
 }
 

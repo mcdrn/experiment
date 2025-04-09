@@ -1,6 +1,18 @@
+@charset "utf=8";
+
+html,body{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
 .tab-layout {
   /* display: flex; */
   align-items: flex-start;
+}
+
+main{
+  background-color: #fff;
 }
 
 .form-tabs {
@@ -31,7 +43,7 @@
 .form-box {
   display: none;
   /* padding: 20px; */
-  background: #eee;
+  /* background: #eee; */
   min-width: 300px;
 }
 
@@ -41,16 +53,17 @@
 
 body {
   font-family: sans-serif;
-  background: #f8f8f8;
-  padding: 20px;
+  /* background: #f8f8f8; */
+  /* padding: 20px; */
 }
 
 .contact-form {
   padding: 20px;
   max-width: 600px;
-  margin: 90px auto;
-  border-radius: 8px;
+  margin: 30px auto;
+  /* border-radius: 8px; */
   text-align: left;
+  background-color: #fff;
 }
 
 .form-block {
