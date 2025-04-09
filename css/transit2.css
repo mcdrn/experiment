@@ -200,6 +200,10 @@
     width: auto
 }
 
+.smb-section__contents-wrapper-group{
+    background-color: #fff;
+}
+
 .smb-section__contents-wrapper>*+* {
     margin-top: var(--_margin2)
 }
