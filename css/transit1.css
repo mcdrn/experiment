@@ -481,7 +481,7 @@ body button {
 
 @media(width <= 640px) {
     .archive .smb-section__header .smb-section__title,.news-template-default .smb-section__header .smb-section__title,.thd_mod-lower_header .smb-section__header .smb-section__title {
-        font-size: 3rem
+        font-size: 4rem
     }
 }
 
@@ -564,8 +564,8 @@ body button {
     .smb-section__header .smb-section__title {
         font-size: 30px;
         margin-bottom: 10px;
-        line-height: 1
-
+        line-height: 1;
+        letter-spacing: 1px;
     }
 }
 
@@ -3772,6 +3772,7 @@ body button {
 
 @media(width <= 640px) {
     .thd_group__item__name {
+        text-align: left;
         font-size: 1.5rem;
         letter-spacing: -.01em;
         line-height: 1.5
@@ -5737,7 +5738,7 @@ body button {
 }
 
 .js-inview.is-inview .smb-section__header .smb-section__title {
-    font-size: 37px;
+    font-size: 30px;
     transform: scaleX(1);
     transition: transform .4s cubic-bezier(.165,.84,.44,1)
 }

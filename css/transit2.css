@@ -165,6 +165,7 @@
 }
 
 .smb-section__inner>.c-container {
+    margin: auto;
     position: relative
 }
 
@@ -206,7 +207,7 @@
 }
 
 .smb-section__contents-wrapper-exective{
-    background-color: #f5f5f5;
+    background-color: #fafafa;
 }
 
 .smb-section__contents-wrapper-group{

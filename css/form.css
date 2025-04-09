@@ -9,10 +9,14 @@ html,body{
 .tab-layout {
   /* display: flex; */
   align-items: flex-start;
+  border-bottom: solid 0.01px #e2e2e2;
+  border-top: solid 0.01px #e2e2e2;
+  padding: 20px 0;
 }
 
 main{
   background-color: #fff;
+  margin-top: 60px;
 }
 
 .form-tabs {
@@ -151,12 +155,11 @@ textarea {
 
 .contact-wrap{
   padding-left: 0;
-  margin-top: 80px;
 }
 
 .contact-text{
   color: #000;
-  font-size: 1.5rem;
+  font-size: 21px;
   font-weight: 600;
 }
 
@@ -167,7 +170,7 @@ textarea {
 @media(max-width: 480px){
   .accordion-contact-main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
      padding: 0 30px;
   }
