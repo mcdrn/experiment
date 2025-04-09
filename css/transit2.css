@@ -193,7 +193,7 @@
 }
 
 .smb-section__contents-wrapper {
-    /* background-color: #f5f5f5; */
+    background-color: #f5f5f5;
     margin-left: auto;
     margin-right: auto;
     max-width: min(100%,var(--smb-section--contents-wrapper-width));
