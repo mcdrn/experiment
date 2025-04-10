@@ -19,6 +19,10 @@ main{
   margin-top: 60px;
 }
 
+.l-contents__main-message{
+  margin-top: 0;
+}
+
 .form-tabs {
   display: flex;
   flex-direction: column;

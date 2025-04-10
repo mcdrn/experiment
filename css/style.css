@@ -693,7 +693,7 @@ gap: 30px;
 
 .circle{
     font-size: 15px;
-    width: 20px;
+    width: 25px;
 }
 
 
@@ -848,18 +848,19 @@ header {
 
 #close-btn {
     position: absolute;
-    top: 10px;
-    right: 5%;
+    top: 20px;
+    right: 8%;
     cursor: pointer;
     user-select: none;
     width: 45px;
     height: 45px;
     border-radius: 50%;
     /* background: #000; */
-    color: #fff;
+    color: #000;
     line-height: 45px;
     display: none;
     z-index: 999;
+    font-size: 40px;
 }
 
 .header-under {
@@ -888,7 +889,7 @@ li {
 
 .toggle-btn{
     width: 35.6px;
-    color: #fff;
+    color: #000;
     font-size: 20px;
     border: none;
     background: none;
@@ -991,7 +992,7 @@ li {
     transition: right 0.3s ease-in-out;
     box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
     z-index: 999; */
-    background: #222;
+    background: #fff;
     height: 900px;
     overflow-y: auto;
     padding-top: 50px;
@@ -1019,7 +1020,7 @@ li {
     }
 
     .index ul li a{
-        color: white;
+        color: #000;
     font-size: 14px;
     text-decoration: none;
     display: block;

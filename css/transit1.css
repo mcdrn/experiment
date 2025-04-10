@@ -5512,7 +5512,9 @@ body button {
 
 @media(width < 1024px) {
     .thd_contact__notes .smb-section__body {
+        margin: 25px;
         background-color: #fff;
+        text-align: left;
         padding-top: 40px
     }
 }

@@ -1829,6 +1829,10 @@ button.swiper-pagination-bullet {
         -ms-flex-preferred-size:100%!important;
         flex-basis: 100%!important
     }
+
+    .wp-block-columns-message{
+        text-align: left;
+    }
 }
 
 @media (min-width: 600px) and (max-width:781px) {
@@ -15912,8 +15916,9 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     [lang=en] .m-h2ttl--ja {
-        font-size:26px;
-        font-size: 6.93333vw
+  
+        font-size: 6.93333vw;
+        font-size:33px;
     }
 }
 
@@ -16332,6 +16337,7 @@ pre.wp-block-verse {
 
 @media print,screen and (min-width: 751px) {
     .m-imgTxt__img:not(:first-child) {
+        font-size: 35px;
         margin-left:40px
     }
 }
@@ -17332,8 +17338,9 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-lead__ttl {
-        font-size:45px;
-        font-size: 12vw
+
+        font-size: 12vw;
+        font-size: 35px;
     }
 }
 
@@ -31753,7 +31760,7 @@ pre.wp-block-verse {
     }
 
     .m-lead__ttl-3{
-        font-size: 35px;
+        font-size: 28px;
         margin-bottom: 10px;
     }
 }
