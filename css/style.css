@@ -901,6 +901,20 @@ li {
     font-family: serif; /* OSやブラウザで変わる */
   line-height: normal; /* 約1.2～1.4倍 */
 }
+.toggle-btn-footer{
+    width: 35.6px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    /* border: solid 1px #fff; */
+    border-radius: 50%;
+    padding: 1px 6px;
+    font-family: serif; /* OSやブラウザで変わる */
+  line-height: normal; /* 約1.2～1.4倍 */
+}
 
   /* 回転時のスタイル */
 
