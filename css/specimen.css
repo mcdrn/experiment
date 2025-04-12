@@ -1827,6 +1827,7 @@ button.swiper-pagination-bullet {
 @media (max-width: 599px) {
     .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
         -ms-flex-preferred-size:100%!important;
+        margin: auto;
         flex-basis: 100%!important
     }
 
