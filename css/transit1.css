@@ -214,6 +214,10 @@ body button {
     width: 18px
 }
 
+.thd_mod-arw__link.--wh:before {
+    background-image: url(https://www.transit-web.com/_wp/wp-content/plugins/my-snow-monkey/img/icon_arw_r_circle_wh.svg);
+}
+
 .thd_mod-arw__link .smb-btn {
     padding: 0
 }
