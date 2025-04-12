@@ -29,5 +29,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // aタグのクリック時にはアコーディオン開閉しないように設定しない（遷移を許可）
 });
