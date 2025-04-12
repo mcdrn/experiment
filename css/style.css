@@ -1406,6 +1406,11 @@ li {
         display: block;
         margin-top: -20px;
     }
+
+    .wp-block-navigation__container:only-child{
+        width: 85%;
+        margin: auto;
+    }
 }
 
 
