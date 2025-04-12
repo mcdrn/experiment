@@ -16,6 +16,7 @@
         close.style.display = "none";
         show.style.transform = "translateX(100%)";
     });
+    
 }
     
 
