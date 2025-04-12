@@ -82,7 +82,6 @@ body button {
 
 @media(width <= 640px) {
     .c-container,.p-archive {
-        
         padding-left: 0px;
         padding-right: 0px
     }
@@ -112,7 +111,10 @@ body button {
 
 .p-entry-content>:not(:first-child) {
     background-color: #fff;
-    margin-top: 0
+    margin-top: 0;
+    border-top: solid 1px #eaeaea;
+    margin-top: 40px;
+    padding-top: 70px;
 }
 
 .spider+.spider__dots {
@@ -542,7 +544,7 @@ body button {
 .smb-section__header {
     align-items: center;
     column-gap: 20px;
-    display: flex
+    display: block;
 }
 
 @media(width <= 640px) {
@@ -5873,6 +5875,7 @@ body button {
 }
 
 .thd_top__recruit.is-inview .smb-buttons {
+    justify-content: center;
     transition: transform .8s ease-out .8s,opacity .8s linear .8s
 }
 

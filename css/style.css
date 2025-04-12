@@ -901,6 +901,20 @@ li {
     font-family: serif; /* OSやブラウザで変わる */
   line-height: normal; /* 約1.2～1.4倍 */
 }
+.toggle-btn-contact{
+    width: 35.6px;
+    color: #000;
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    /* border: solid 1px #fff; */
+    border-radius: 50%;
+    padding: 1px 6px;
+    font-family: serif; /* OSやブラウザで変わる */
+  line-height: normal; /* 約1.2～1.4倍 */
+}
 .toggle-btn-footer{
     width: 35.6px;
     color: #fff;
@@ -926,6 +940,12 @@ li {
 
 
 .toggle-btn.rotate {
+    transform: rotate(45deg);
+  }
+.toggle-btn-contact.rotate {
+    transform: rotate(45deg);
+  }
+.toggle-btn-footer.rotate {
     transform: rotate(45deg);
   }
 
@@ -1299,6 +1319,46 @@ li {
 
     .group-companys{
         margin-top: 40px;
+    }
+
+    .smb-btn-box__btn-wrapper-recruit{
+        margin-top: 60px;
+        padding-top: 45px;
+        border-top: solid 1px #eaeaea;
+    }
+
+    .smb-btn-box__btn-wrapper-company{
+        /* margin-top: 60px; */
+        padding-top: 45px;
+        border-top: solid 1px #eaeaea;
+        padding-bottom: 50px;
+    }
+
+    .smb-section__inner-home{
+        margin: auto;
+    }
+
+    .smb-section--fit{
+        padding-bottom: 0;
+        background-color: #fff;
+    }
+
+    .smb-section--fit-vision{
+        padding-bottom: 50px;
+    }
+
+    .smb-section__contents-wrapper-recruit{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .smb-section__header-recruit{
+        display: block;
+    }
+
+    .l-main-company , .company-body{
+        background-color: #fff;
     }
 }
 

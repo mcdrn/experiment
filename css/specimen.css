@@ -12373,6 +12373,10 @@ pre.wp-block-verse {
     .l-main {
         margin-top: 70px;
     }
+
+    .l-main-company{
+        margin-bottom: 0;
+    }
 }
 
 .l-main--en {
@@ -31197,7 +31201,8 @@ pre.wp-block-verse {
         margin: 0;
         width: 100%;
         padding-top: 50px;
-        background-color: #fafafa;
+        background-color: #fff;
+        /* padding-bottom: 40px; */
     }
 }
 
