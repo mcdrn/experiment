@@ -2841,7 +2841,8 @@ body button {
 
 .thd_top__recruit>.smb-section {
     margin-top: 0!important;
-    z-index: 1
+    z-index: 1;
+    padding-top: 0;
 }
 
 .thd_top__recruit .smb-section__inner {
@@ -5871,11 +5872,13 @@ body button {
 }
 
 .thd_top__recruit.is-inview .wp-block-heading {
-    transition: transform .8s ease-out .4s,opacity .8s linear .4s
+    transition: transform .8s ease-out .4s,opacity .8s linear .4s;
+    text-align: left;
 }
 
 .thd_top__recruit.is-inview p {
-    transition: transform .8s ease-out .6s,opacity .8s linear .6s
+    transition: transform .8s ease-out .6s,opacity .8s linear .6s;
+    text-align: left;
 }
 
 .thd_top__recruit.is-inview .smb-buttons {

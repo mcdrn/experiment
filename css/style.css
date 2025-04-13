@@ -744,11 +744,11 @@ main,body {
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px);/*下からふわっと上がる */
+        /* transform: translateY(20px); */
     }
     to {
         opacity: 1;
-        transform: translateY(0);
+        /* transform: translateY(0); */
     }
 }
 
