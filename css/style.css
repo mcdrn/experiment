@@ -1039,6 +1039,9 @@ li {
     height: 900px;
     overflow-y: auto;
     padding-top: 25px;
+    
+    height: 100vh; /* 高さを画面いっぱいに */
+    /* overflow-y: auto; 縦スクロールを許可 */
     }
 
     .index{
