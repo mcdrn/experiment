@@ -844,6 +844,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    animation: fadeIn 1s ease-in-out;
 }
 
 #close-btn {
