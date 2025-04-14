@@ -106,7 +106,8 @@ body button {
 
 .p-entry-content>:not(:last-child) {
     /* background-color: #fff; */
-    margin-bottom: 0
+    margin-bottom: 0;
+    padding-top: 0;
 }
 
 .p-entry-content>:not(:first-child) {
@@ -114,7 +115,8 @@ body button {
     margin-top: 0;
     border-top: solid 1px #eaeaea;
     margin-top: 40px;
-    padding-top: 70px;
+    /* padding-top: 70px; */
+    padding-bottom: 0;
 }
 
 .spider+.spider__dots {
@@ -2581,8 +2583,8 @@ body button {
 
 @media(width <= 640px) {
     .thd_top__group>.smb-section__inner {
-        padding-bottom: 60px;
-        padding-top: 65px
+        padding-bottom: 0;
+        padding-top: 65px;
     }
 }
 

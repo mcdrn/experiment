@@ -1415,6 +1415,17 @@ li {
         width: 85%;
         margin: auto;
     }
+
+    .member-introduction{
+        padding-left: 0;
+        width: 50%;
+        border-bottom: none;
+    }
+
+    .members-text{
+        color: #000;
+        font-size: 13px;
+    }
 }
 
 

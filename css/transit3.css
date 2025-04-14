@@ -9787,8 +9787,8 @@ a.p-infobar:focus-visible {
 
 @media(max-width: 480px){
     .vision-img{
-        height: 250px;
+        height: 180px;
         margin-bottom: 30px;
     }
 
-} */
+} 
