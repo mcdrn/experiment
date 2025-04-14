@@ -1350,6 +1350,12 @@ li {
         border-top: solid 1px #eaeaea;
         padding-bottom: 50px;
     }
+    .smb-btn-box__btn-wrapper{
+        /* margin-top: 60px; */
+        padding-top: 45px;
+        border-top: solid 1px #eaeaea;
+        padding-bottom: 50px;
+    }
 
     .smb-section__inner-home{
         margin: auto;
