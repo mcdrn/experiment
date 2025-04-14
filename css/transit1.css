@@ -306,7 +306,7 @@ body button {
 @media(width <= 640px) {
     .thd_mod-bottom_next_link .smb-btn {
         font-size: 18px;
-        height: 123px
+        height: 26px;
     }
 }
 
