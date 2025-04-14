@@ -2584,7 +2584,7 @@ body button {
 @media(width <= 640px) {
     .thd_top__group>.smb-section__inner {
         padding-bottom: 0;
-        padding-top: 65px;
+        padding-top: 0;
     }
 }
 
