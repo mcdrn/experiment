@@ -3722,7 +3722,8 @@ body button {
 .thd_group__item.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
     text-align: left;
     flex-basis: unset!important;
-    flex-grow: unset!important
+    flex-grow: unset!important;
+    margin-top: 0;
 }
 
 .thd_group__item .thd_mod-arw__link {

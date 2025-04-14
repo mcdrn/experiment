@@ -1432,6 +1432,12 @@ li {
         color: #000;
         font-size: 13px;
     }
+
+
+
+    .custom-img{
+        height: 400px;
+    }
 }
 
 
