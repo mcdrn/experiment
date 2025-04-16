@@ -1076,7 +1076,7 @@ li {
     text-decoration: none;
     display: block;
     transition: color 0.3s ease;
-
+    letter-spacing: 0;
     }
 
     .close-btn {
