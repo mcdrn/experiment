@@ -1438,6 +1438,21 @@ li {
     .custom-img{
         height: 400px;
     }
+
+    #exective-members {
+        position: relative; /* 基準位置に */
+      }
+      
+      #exective-members .accordion-content {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+
+      
+      
 }
 
 
