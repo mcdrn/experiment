@@ -1477,6 +1477,15 @@ li {
         color: #000;
       }
 
+      .message-items{
+     border-top: none !important;
+    }
+
+    .message-img{
+        height: auto !important;
+    }
+
+
 }
 
 
