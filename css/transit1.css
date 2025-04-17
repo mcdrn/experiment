@@ -1964,7 +1964,7 @@ body button {
 
 .thd_top__kv__main__img:after {
     white-space: pre;
-    content: "texttext\Atexttext\Atexttext";
+    /* content: url(../img/img-2.jpg); */
     color: #fff;
     font-size: 6rem;
     font-weight: bold;
@@ -1973,6 +1973,7 @@ body button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-height: 370px;
 }
 
 /* .thd_top__kv__main__img2:after {
@@ -6146,7 +6147,7 @@ body button {
     }
 
     .executive-names{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .thd_company__menbers__item__name-2{
