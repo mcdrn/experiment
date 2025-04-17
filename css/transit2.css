@@ -242,6 +242,7 @@
 .smb-section__header,.smb-section__subtitle,.smb-section__title {
     text-align: center;
     padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 .smb-section__header>*,.smb-section__header>.c-container>* {

@@ -3177,7 +3177,7 @@ body button {
 }
 
 .thd_company__menbers__item:not(:first-of-type) {
-    margin-top: 50px!important
+    /* margin-top: 50px!important */
 }
 
 @media(width <= 640px) {
@@ -3662,16 +3662,16 @@ body button {
 }
 
 .thd_group__sec {
-    margin-top: 80px!important
+    /* margin-top: 80px!important */
 }
 
 @media(width <= 640px) {
     .thd_group__sec {
-        margin-top: 60px!important
+        /* margin-top: 60px!important */
     }
 
     .thd_group__sec:first-of-type {
-        margin-top: 40px!important
+        /* margin-top: 40px!important */
     }
 }
 
@@ -3679,7 +3679,7 @@ body button {
     border-bottom: 1px solid #eaeaea;
     font-size: 2rem;
     line-height: 1.25;
-    margin-bottom: 0!important;
+    /* margin-bottom: 0!important; */
     padding-bottom: 20px
 }
 
@@ -3697,7 +3697,9 @@ body button {
 @media(width < 880px) {
     .thd_group__item__list>.wp-block-columns {
         flex-direction: column;
-        row-gap: 30px
+        /* row-gap: 30px */
+        margin-top: 0 !important;
+        margin-bottom: 0;
     }
 
     .thd_group__item__list .wp-block-column:empty {
@@ -3715,7 +3717,8 @@ body button {
         flex-basis: unset!important;
         flex-grow: unset!important;
         flex-wrap: nowrap!important;
-        justify-content: space-between
+        justify-content: space-between;
+        margin-bottom: 7px;
     }
 }
 
@@ -3785,7 +3788,9 @@ body button {
         text-align: left;
         font-size: 1.5rem;
         letter-spacing: -.01em;
-        line-height: 1.5
+        line-height: 1.5;
+        margin-top: 0;
+        
     }
 }
 
