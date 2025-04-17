@@ -1424,8 +1424,9 @@ li {
 
     .member-introduction{
         padding-left: 0;
-        width: 50%;
+        /* width: 50%; */
         border-bottom: none;
+        margin-top: -50px;
     }
 
     .members-text{
@@ -1444,7 +1445,7 @@ li {
       }
       
       #exective-members .accordion-content {
-        position: absolute;
+        /* position: absolute; */
         left: 0;
         width: 100%;
         box-sizing: border-box;
@@ -1455,6 +1456,13 @@ li {
         background-color: #fff;
       }
       
+      .accordion-profile{
+        justify-content: normal;
+      }
+
+      .member-accordion{
+        text-align: left;
+      }
 }
 
 
