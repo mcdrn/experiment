@@ -1494,11 +1494,18 @@ li {
         width: 120%;
     }
 
+    .contents-upper,.contents-lower{
+        display: flex;
+        gap: 10px;
+    }
+
 }
 
 
 
-
+.business-img{
+    max-height: 100% !important;
+}
 
 
 .material-icons{
