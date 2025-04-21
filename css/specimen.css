@@ -10279,7 +10279,7 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .l-block--mission {
-        background-image:url(../img/img-1.jpg)
+        background-color: #fff;
     }
 }
 
@@ -10488,8 +10488,9 @@ pre.wp-block-verse {
 @media screen and (max-width: 750px) {
     .l-contents {
         /* margin-top: 70px; */
-        padding-left:calc(30/750*100vw);
-        padding-right: calc(30/750*100vw)
+        padding-left: 10%;
+        padding-right:  10%;
+        background-color: #fff;
     }
 }
 
@@ -14197,7 +14198,8 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-box {
-        padding:calc(60/750*100vw) calc(30/750*100vw)
+        padding:calc(60/750*100vw) calc(30/750*100vw);
+        padding: 0;
     }
 }
 
@@ -19013,7 +19015,11 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-txt:not(:first-child) {
-        margin-top:calc(30/750*100vw)
+        margin-top:calc(30/750*100vw);
+        text-align: left;
+        margin-bottom: 70px;
+        border-top: solid 0.5px #000;
+        padding-top: 50px;
     }
 }
 
@@ -19023,7 +19029,9 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .m-txt:not(:last-child) {
-        margin-bottom:calc(30/750*100vw)
+        margin-bottom:calc(30/750*100vw);
+        text-align: left;
+        margin-bottom: 60px;
     }
 }
 
@@ -31612,7 +31620,9 @@ pre.wp-block-verse {
     .u-fs--ls {
         padding-left: 0;
         font-size:15px;
-        font-size: 4vw
+        font-size: 4vw;
+        text-align: left;
+        margin-top: 35px;
     }
 }
 
