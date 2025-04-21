@@ -1485,6 +1485,14 @@ li {
         height: auto !important;
     }
 
+    .l-contents-message{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .main-visual{
+        width: 130%;
+    }
 
 }
 
