@@ -3806,7 +3806,8 @@ body button {
         font-size: 1.3rem;
         line-height: 1.5;
         margin-top: 5px!important;
-        padding-right: 1em
+        padding-right: 1em;
+        margin-bottom: 0;
     }
 }
 
