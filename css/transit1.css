@@ -459,7 +459,8 @@ body button {
 
 @media(width <= 640px) {
     .wp-block-navigation .wp-block-navigation-item__label {
-        font-size: 1.3rem
+        font-size: 1.3rem;
+        white-space: nowrap;
     }
 }
 
