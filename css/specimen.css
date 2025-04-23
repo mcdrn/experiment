@@ -2812,7 +2812,11 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 .wp-block-image:not(.is-style-rounded) img,.wp-block-image:not(.is-style-rounded)>a {
     border-radius: inherit;
     max-height: 100px;
-    width: auto
+    width: auto;
+}
+
+.face-img{
+    max-height: none !important;
 }
 
 .wp-block-image.aligncenter {
