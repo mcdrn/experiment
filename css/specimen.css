@@ -2815,8 +2815,13 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
     width: auto;
 }
 
+
 .face-img{
     max-height: none !important;
+}
+
+.relapis-img{
+    max-height: 85px !important;
 }
 
 .wp-block-image.aligncenter {
