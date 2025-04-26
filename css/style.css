@@ -1,5 +1,10 @@
 @charset "utf=8";
 
+@font-face {
+    font-family: 'EishiiKaisho'; /* 好きな名前でOK */
+    src: url('../fonts/ackaisyo.ttf') format('truetype');
+  }
+
 html{
     scroll-behavior: smooth
 }
@@ -737,7 +742,7 @@ main,body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: #f5f5f5;
+    background: #fff;
     color: #333;
 }
 
@@ -1494,9 +1499,55 @@ li {
         width: 120%;
     }
 
+
     .contents-upper,.contents-lower{
         display: flex;
         gap: 10px;
+    }
+
+    .message-company-name{
+        font-family: "Noto Serif JP", serif !important;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .japanese-name{
+        margin-top: 3px;
+    }
+
+    .message-nameposition{
+        display: flex;
+        margin-top: 0 !important;
+    }
+
+    .message-japanese-name , .message-position{
+        font-family: 'EishiiKaisho', serif !important;
+    }
+
+    .message-japanese-name{
+        font-size: 33px !important;
+        margin-top: 0 !important;
+        margin-left: 20px;
+    }
+    
+    .message-position{
+        font-size: 18px !important;
+        align-items: flex-end !important    ;
+        margin-top: 17px;
+    }
+
+    .top-recruit-message-main{
+        font-size: 16px !important;
+        text-align: center !important;
+        font-weight: 700 !important;
+    }
+
+    .message-position-wrap{
+        align-items: flex-end;
+    }
+
+    .recruit-tab{
+        width: 100% !important;
     }
 
 }

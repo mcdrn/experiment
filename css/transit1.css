@@ -3416,7 +3416,9 @@ body button {
 }
 
 .thd_top-message__text p:not(:first-of-type) {
-    margin-top: 25px
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: auto;
 }
 
 .thd_top-message__text .thd_top-message__text__position {

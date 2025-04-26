@@ -1828,7 +1828,8 @@ button.swiper-pagination-bullet {
     .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
         -ms-flex-preferred-size:100%!important;
         margin: auto;
-        flex-basis: 100%!important
+        flex-basis: 100%!important;
+        padding-bottom: 18px;
     }
 
     .wp-block-columns-message{
@@ -13261,7 +13262,7 @@ pre.wp-block-verse {
 @media screen and (max-width: 750px) {
     .m-arrowBtn--mt40 {
         width: 70%;
-        margin:10.66667vw auto 0
+        margin:10.66667vw auto;
     }
 }
 
@@ -16799,16 +16800,16 @@ pre.wp-block-verse {
 }
 
 .m-kv--recruit {
-    background: url(https://placehold.jp/1300x300.png);
+    background: url(../img/recruit.jpg);
     background-size: cover;
     background-position: center left
 }
 
 @media screen and (max-width: 750px) {
     .m-kv--recruit {
-        background:url(https://placehold.jp/300x200.png);
+        background: url(../img/recruit.jpg);
         background-size: cover;
-        background-position: center left
+        background-position: center left;
     }
 }
 
@@ -19039,8 +19040,8 @@ pre.wp-block-verse {
 @media screen and (max-width: 750px) {
     .m-txt:not(:last-child) {
         margin-bottom:calc(30/750*100vw);
-        text-align: left;
-        margin-bottom: 60px;
+        text-align: center;
+        margin-bottom: 25px;
     }
 }
 
