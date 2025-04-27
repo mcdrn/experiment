@@ -10498,8 +10498,8 @@ pre.wp-block-verse {
 @media screen and (max-width: 750px) {
     .l-contents {
         /* margin-top: 70px; */
-        padding-left: 10%;
-        padding-right:  10%;
+        padding-left: 15px;
+        padding-right:  15px;
         background-color: #fff;
     }
 }
@@ -12437,7 +12437,10 @@ pre.wp-block-verse {
 
 @media screen and (max-width: 750px) {
     .l-sectionLv2:not(:first-child) {
-        margin-top:calc(80/750*100vw)
+        margin: auto;
+        margin-top:calc(80/750*100vw);
+        width: 80%;
+      
     }
 }
 
