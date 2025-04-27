@@ -9,6 +9,7 @@
   @media screen and (max-width: 750px) {
     .m-txt:not(:first-child){
         margin-bottom: 0;
+        border-top: none;
     }
 
     .vision-underline{
@@ -23,7 +24,7 @@
       .vision-underline::after {
         content: "";
         position: absolute;
-        bottom: -30px;
+        bottom: -30.5px;
         left: 0;
         height: 4px; /* グラデ部分は太め */
         width: 40%; /* グラデの長さをここで調整 */

@@ -27,7 +27,7 @@
       .form-content::after {
         content: "";
         position: absolute;
-        bottom: 35px;
+        bottom: -25px;
         left: 0;
         height: 3px; /* グラデ部分は太め */
         width: 40%; /* グラデの長さをここで調整 */
@@ -42,7 +42,7 @@
       .form-content::before {
         content: "";
         position: absolute;
-        bottom: 34px;
+        bottom: -24px;
         left: 40%; /* グラデの終わりに合わせる */
         height: 1px; /* 単色部分は細め */
         width: calc(100% - 40%); /* 残りを単色で */

@@ -57,7 +57,7 @@
       .smb-section__inner-2::after {
         content: "";
         position: absolute;
-        bottom: -35px;
+        bottom: -35.5px;
         left: 0;
         height: 4px; /* グラデ部分は太め */
         width: 40%; /* グラデの長さをここで調整 */
