@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+
+@media(max-width: 480px){
+      .m-h2ttl{
+          position: relative;
+          display: block;
+          justify-content: space-between;
+          align-items: center;
+          /* padding-bottom: 10px; */
+          /* margin: 30px auto; */
+        }
+        
+        .m-h2ttl::after {
+          content: "";
+          position: absolute;
+          bottom: -10.5px;
+          left: 0;
+          height: 4px; /* グラデ部分は太め */
+          width: 40%; /* グラデの長さをここで調整 */
+          background: linear-gradient( to right,
+          #69b5e6, 
+          #a46ec5, 
+          #f17c83, 
+          #f4b66d, 
+          #f3e37c  ); /* グラデ部分の色 */
+        }
+        
+        .m-h2ttl::before {
+          content: "";
+          position: absolute;
+          bottom: -9px;
+          left: 40%; /* グラデの終わりに合わせる */
+          height: 1px; /* 単色部分は細め */
+          width: calc(100% - 40%); /* 残りを単色で */
+          background-color: #9c9c9c; /* 単色の色 */
+        }
+
+        .m-imgTxtWide__wrap{
+            width: 100%;
+        }
+
+        .m-txt:not(:last-child){
+            padding-top: 20px;
+        }
+
+        .smb-btn-box__btn-wrapper-recruit{
+            border-top: none;
+        }
+
+        .recruit-know-wrap{
+            position: relative;
+            display: block;
+            justify-content: space-between;
+            align-items: center;
+            /* padding-bottom: 10px; */
+            /* margin: 30px auto; */
+            width: 90%;
+            margin: auto;
+          }
+          
+          .recruit-know-wrap::after {
+            content: "";
+            position: absolute;
+            bottom: -52px;
+            left: 0;
+            height: 4px; /* グラデ部分は太め */
+            width: 40%; /* グラデの長さをここで調整 */
+            background: linear-gradient( to right,
+            #69b5e6, 
+            #a46ec5, 
+            #f17c83, 
+            #f4b66d, 
+            #f3e37c  ); /* グラデ部分の色 */
+          }
+          
+          .recruit-know-wrap::before {
+            content: "";
+            position: absolute;
+            bottom: -51px;
+            left: 40%; /* グラデの終わりに合わせる */
+            height: 1px; /* 単色部分は細め */
+            width: calc(100% - 40%); /* 残りを単色で */
+            background-color: #9c9c9c; /* 単色の色 */
+          }
+
+          .m-imgTxtWide__bg{
+            margin-left: -10%;
+          }
+  }

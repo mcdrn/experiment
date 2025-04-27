@@ -1082,6 +1082,7 @@ li {
     display: block;
     transition: color 0.3s ease;
     letter-spacing: 0;
+    width: 100%;
     }
 
     .close-btn {
@@ -1294,15 +1295,157 @@ li {
     }
 
     .index-main{
-        border-bottom: solid 1px #9c9c9c;
+        /* border-bottom: solid 1px #9c9c9c; */
     }
+
+    .index-text {
+        position: relative;
+        display: inline-block; /* ← 下線をコントロールできるようにする */
+      }
+      
+      /* .index-text::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 100%;
+        height: 1px; 
+        background: #9c9c9c; 
+      }
+      
+      .index-text::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 40%; 
+        height: 4px; 
+        background: linear-gradient(
+          to right,
+          #69b5e6, 
+          #a46ec5, 
+          #f17c83, 
+          #f4b66d, 
+          #f3e37c  
+        );
+        z-index: 999;
+      
+      } */
+
+
+      .index-main{
+        position: relative;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        margin: 30px auto;
+      }
+      
+      .index-main::after {
+        content: "";
+        position: absolute;
+        bottom: -17px;
+        left: 0;
+        height: 3px; /* グラデ部分は太め */
+        width: 40%; /* グラデの長さをここで調整 */
+        background: linear-gradient( to right,
+        #69b5e6, 
+        #a46ec5, 
+        #f17c83, 
+        #f4b66d, 
+        #f3e37c  ); /* グラデ部分の色 */
+      }
+      
+      .index-main::before {
+        content: "";
+        position: absolute;
+        bottom: -16px;
+        left: 40%; /* グラデの終わりに合わせる */
+        height: 1px; /* 単色部分は細め */
+        width: calc(100% - 40%); /* 残りを単色で */
+        background-color: #9c9c9c; /* 単色の色 */
+      }
+    
 
     .footer-index{
         padding: 10px ;
         width: 85%;
         margin: auto;
-        border-bottom: solid 1px #9c9c9c;
+        /* border-bottom: solid 1px #9c9c9c; */
     }
+
+    .footer-index{
+        position: relative;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        /* margin: 30px auto; */
+      }
+      
+      .footer-index::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        height: 3px; /* グラデ部分は太め */
+        width: 40%; /* グラデの長さをここで調整 */
+        background: linear-gradient( to right,
+        #69b5e6, 
+        #a46ec5, 
+        #f17c83, 
+        #f4b66d, 
+        #f3e37c  ); /* グラデ部分の色 */
+      }
+      
+      .footer-index::before {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 40%; /* グラデの終わりに合わせる */
+        height: 1px; /* 単色部分は細め */
+        width: calc(100% - 40%); /* 残りを単色で */
+        background-color: #9c9c9c; /* 単色の色 */
+      }
+
+      .p-profile__listItem-upper{
+        position: relative;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        /* padding-bottom: 10px; */
+        /* margin: 30px auto; */
+      }
+      
+      .p-profile__listItem-upper::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        height: 4px; /* グラデ部分は太め */
+        width: 40%; /* グラデの長さをここで調整 */
+        background: linear-gradient( to right,
+        #69b5e6, 
+        #a46ec5, 
+        #f17c83, 
+        #f4b66d, 
+        #f3e37c  ); /* グラデ部分の色 */
+      }
+      
+      .p-profile__listItem-upper::before {
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left: 40%; /* グラデの終わりに合わせる */
+        height: 1px; /* 単色部分は細め */
+        width: calc(100% - 40%); /* 残りを単色で */
+        background-color: #9c9c9c; /* 単色の色 */
+      }
+      
+   
+
+   
 
     .top{
         padding-left: 0;
@@ -1358,7 +1501,7 @@ li {
     .smb-btn-box__btn-wrapper{
         /* margin-top: 60px; */
         padding-top: 45px;
-        border-top: solid 1px #eaeaea;
+        /* border-top: solid 1px #eaeaea; */
         padding-bottom: 50px;
     }
 
@@ -1431,7 +1574,7 @@ li {
         padding-left: 0;
         /* width: 50%; */
         border-bottom: none;
-        margin-top: -50px;
+        margin-top: -20px;
     }
 
     .members-text{
@@ -1550,6 +1693,26 @@ li {
         width: 100% !important;
     }
 
+    .recuruit-main-en{
+        color: #fff;
+    }
+
+    .index-more {
+        display: flex !important;
+        align-items: center;           /* ← 高さ揃える */
+        line-height: 1;                /* ← 行間固定する */
+        margin: 10px 0;                /* ← 余白も統一 */
+      }
+      
+      .index-more::before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 2px;                   /* ← ここが線の太さ！ */
+        background: linear-gradient(to right, #69b5e6, #a46ec5, #f17c83, #f4b66d, #f3e37c);
+        margin-right: 5px;
+        flex-shrink: 0;                /* ← これで縮まない */
+      }
 }
 
 

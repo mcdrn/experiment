@@ -1,12 +1,6 @@
-@charset "utf-8";
+@charset "untf-8";
 
-.wp-block-image:not(.is-style-rounded) img{
-    max-height: 100%;
-}
-
-
-
-.smb-section__inner-2{
+.company-ichiran{
     position: relative;
     display: block;
     justify-content: space-between;
@@ -15,10 +9,10 @@
     /* margin: 30px auto; */
   }
   
-  .smb-section__inner-2::after {
+  .company-ichiran::after {
     content: "";
     position: absolute;
-    bottom: 0px;
+    bottom: 30px;
     left: 0;
     height: 4px; /* グラデ部分は太め */
     width: 40%; /* グラデの長さをここで調整 */
@@ -30,16 +24,39 @@
     #f3e37c  ); /* グラデ部分の色 */
   }
   
-  .smb-section__inner-2::before {
+  .company-ichiran::before {
     content: "";
     position: absolute;
-    bottom: 1px;
+    bottom: 31.5px;
     left: 40%; /* グラデの終わりに合わせる */
     height: 1px; /* 単色部分は細め */
     width: calc(100% - 40%); /* 残りを単色で */
     background-color: #9c9c9c; /* 単色の色 */
   }
 
-  .p-entry-content>:not(:first-child){
-    border: none;
+  @media(max-width: 480px){
+    .p-profile__listTxt{
+        -webkit-touch-callout: none;
+        -webkit-user-select: text;
+        user-select: text
+    }
+
+    .member-accordion{
+        margin-top: 0;
+    }
+
+    element.style{
+        padding-left: 0;
+    }
+
+    .toggle-btn{
+        padding-left: 0;
+        width: auto;
+        margin-left: -3px;
+    }
+
+    .thd_company__menbers__item__name__en{
+        margin-top: -5px !important;
+    }
+
   }
