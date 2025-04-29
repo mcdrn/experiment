@@ -1713,6 +1713,25 @@ li {
         margin-right: 5px;
         flex-shrink: 0;                /* ← これで縮まない */
       }
+
+      .next-img{
+        height: 25px;
+        object-fit: cover;
+      }
+
+      .l-footer__contact__title{
+        margin-bottom: 0;
+      }
+
+      .l-footer__contact__link{
+        margin-top: 0;
+      }
+
+      .m-bnrList__img img {
+        width: 100%;
+        filter: brightness(0.5);
+    
+}
 }
 
 

@@ -59,4 +59,12 @@
         margin-top: -5px !important;
     }
 
+    .l-footer__upper{
+      margin-top: 0;
+    }
+
+    .smb-btn-box__btn-wrapper{
+      padding-top: 30px;
+    }
+
   }

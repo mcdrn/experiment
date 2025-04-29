@@ -16496,12 +16496,14 @@ pre.wp-block-verse {
 }
 
 .m-imgTxtWide__bg--job {
-    background-image: url(https://placehold.jp/730x430.png)
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+     url(../img/recruit-top2.jpg)
 }
 
 @media screen and (max-width: 750px) {
     .m-imgTxtWide__bg--job {
-
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(../img/recruit-top2.jpg)
     }
 }
 
@@ -16804,7 +16806,7 @@ pre.wp-block-verse {
 }
 
 .m-kv--recruit {
-    background: url(../img/recruit.jpg);
+    background: url(../img/recruit-inner-1.jpg);
     background-size: cover;
     background-position: center left
 }
@@ -16812,7 +16814,7 @@ pre.wp-block-verse {
 @media screen and (max-width: 750px) {
     .m-kv--recruit {
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-         url(../img/recruit.jpg);
+         url(../img/recruit-inner-1.jpg);
         background-size: cover;
         background-position: center left;
         
@@ -16890,14 +16892,16 @@ pre.wp-block-verse {
 }
 
 .m-kv--arbeit {
-    background: url(https://placehold.jp/1333x300.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/recruit-top1.jpg);
     background-size: cover;
     background-position: center left
 }
 
 @media screen and (max-width: 750px) {
     .m-kv--arbeit {
-        background:url(https://placehold.jp/750x400.png);
+        background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../img/recruit-top1.jpg);
         background-size: cover;
         background-position: center left
     }

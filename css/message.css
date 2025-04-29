@@ -43,3 +43,7 @@
   .p-entry-content>:not(:first-child){
     border: none;
   }
+
+  .l-footer__upper{
+    margin-top: 0;
+  }

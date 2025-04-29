@@ -92,4 +92,8 @@
         padding-top: 0;
     }
 
+    .l-footer__upper{
+      margin-top: 0;
+    }
+
 }

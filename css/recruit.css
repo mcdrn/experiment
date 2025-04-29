@@ -63,7 +63,7 @@
           .recruit-know-wrap::after {
             content: "";
             position: absolute;
-            bottom: -52px;
+            bottom: -52.5px;
             left: 0;
             height: 4px; /* グラデ部分は太め */
             width: 40%; /* グラデの長さをここで調整 */
@@ -88,4 +88,10 @@
           .m-imgTxtWide__bg{
             margin-left: -10%;
           }
+
+          .m-bnrList__img img{
+            width: 100%;
+            filter: brightness(0.5);
+          }
+
   }
