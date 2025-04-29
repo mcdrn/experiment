@@ -17120,14 +17120,16 @@ pre.wp-block-verse {
 }
 
 .m-kv--group {
-    background: url(https://placehold.jp/2732x600.png);
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+     url(../img/partnar.jpg);
     background-size: cover;
     background-position: center left
 }
 
 @media screen and (max-width: 750px) {
     .m-kv--group {
-        background:url(https://placehold.jp/750x400.png);
+        background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../img/partnar.jpg);
         background-size: cover;
         background-position: center left
     }

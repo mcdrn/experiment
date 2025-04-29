@@ -79,5 +79,17 @@
         background-color: #9c9c9c; /* 単色の色 */
       }
 
+      .thd_our_business__sec .wp-block-columns {
+        flex-direction: column;
+        row-gap: 0;
+    }
+
+    .js-inview.is-inview .smb-section__header .smb-section__title{
+        padding-top: 0;
+    }
+
+    :root :where(.is-layout-flow) > :last-child{
+        padding-top: 0;
+    }
 
 }

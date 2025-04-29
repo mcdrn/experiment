@@ -39,7 +39,7 @@
       .vision-underline::before {
         content: "";
         position: absolute;
-        bottom: -28px;
+        bottom: -29px;
         left: 40%; /* グラデの終わりに合わせる */
         height: 1px; /* 単色部分は細め */
         width: calc(100% - 40%); /* 残りを単色で */
