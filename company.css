@@ -1,0 +1,99 @@
+@charset "untf-8";
+
+.company-ichiran{
+    position: relative;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-bottom: 10px; */
+    /* margin: 30px auto; */
+  }
+  
+  .company-ichiran::after {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    height: 4px; /* グラデ部分は太め */
+    width: 40%; /* グラデの長さをここで調整 */
+    background: linear-gradient( to right,
+    #69b5e6, 
+    #a46ec5, 
+    #f17c83, 
+    #f4b66d, 
+    #f3e37c  ); /* グラデ部分の色 */
+  }
+  
+  .company-ichiran::before {
+    content: "";
+    position: absolute;
+    bottom: 31.5px;
+    left: 40%; /* グラデの終わりに合わせる */
+    height: 1px; /* 単色部分は細め */
+    width: calc(100% - 40%); /* 残りを単色で */
+    background-color: #9c9c9c; /* 単色の色 */
+  }
+
+  @media(max-width: 480px){
+    .p-profile__listTxt{
+        -webkit-touch-callout: none;
+        -webkit-user-select: text;
+        user-select: text
+    }
+
+    .member-accordion{
+        margin-top: 0;
+    }
+
+    element.style{
+        padding-left: 0;
+    }
+
+    .toggle-btn{
+        padding-left: 0;
+        width: auto;
+        margin-left: -3px;
+    }
+
+    .thd_company__menbers__item__name__en{
+        margin-top: -5px !important;
+    }
+
+    .l-footer__upper{
+      margin-top: 0;
+    }
+
+    .smb-btn-box__btn-wrapper{
+      padding-top: 30px;
+    }
+
+    .thd_group__item.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{
+      margin-top: auto !important;
+    }
+
+    .grey-out{
+      font-family: futura-pt, sans-serif;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 600;
+      letter-spacing: .1em;
+      line-height: 1.5;
+      color: #9c9c9c;
+    }
+
+    .grey-out:before{
+      background-image: url(../img/grey_arrow.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    }
+
+    .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{
+      padding-bottom: 13px;
+    }
+
+  }
