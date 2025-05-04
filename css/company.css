@@ -67,4 +67,29 @@
       padding-top: 30px;
     }
 
+    .thd_group__item.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{
+      margin-top: auto !important;
+    }
+
+    .grey-out{
+      font-family: futura-pt, sans-serif;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 600;
+      letter-spacing: .1em;
+      line-height: 1.5;
+      color: #9c9c9c;
+    }
+
+    .grey-out:before{
+      background-image: url(../img/grey_arrow.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    }
+
   }
