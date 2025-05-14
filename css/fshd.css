@@ -46,6 +46,13 @@
     background-color: #99dbff !important;
 }
 
+.c-button.is-secondary{
+    background-color: #99dbff ;
+}
+
+.c-button{
+    background-color: #99dbff;
+}
 
 /* footer#0887cd */
 
