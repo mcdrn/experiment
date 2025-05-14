@@ -42,6 +42,10 @@
     margin-top: -50px;
 }
 
+.c-main-visual__border{
+    background-color: #99dbff;
+}
+
 
 /* footer#0887cd */
 
@@ -50,4 +54,6 @@
         padding: 7px;
     }
 }
+
+
 
