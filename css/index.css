@@ -37,3 +37,9 @@
     width: calc(100% - 40%); /* 残りを単色で */
     background-color: #9c9c9c; /* 単色の色 */
   }
+
+  .news-section iframe {
+    width: 100%;
+    border: none;
+  }
+  
