@@ -973,7 +973,7 @@ li {
 
   
   .accordion-content.open {
-    padding: 15px 20px;
+    padding: 0 20px;
   }
 
 
@@ -1701,7 +1701,7 @@ li {
         display: flex !important;
         align-items: center;           /* ← 高さ揃える */
         line-height: 1;                /* ← 行間固定する */
-        margin: 10px 0;                /* ← 余白も統一 */
+        margin: 14px 0;                /* ← 余白も統一 */
       }
       
       .index-more::before {
