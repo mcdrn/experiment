@@ -142,6 +142,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		padding-left: 0;
 	}
 }		</style>
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+ rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/fshd.css">
 		</head>
 
@@ -151,12 +154,12 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<button class="c-slidebar-button  js-slidebar-button  is-top" type="button" style="opacity: 1;">
+<!-- <button class="c-slidebar-button  js-slidebar-button  is-top" type="button" style="opacity: 1;">
   <span class="c-slidebar-button__inner">
     <span class="c-slidebar-button__line"><span></span><span></span><span></span>
     </span>
   </span>
-</button>
+</button> -->
 
 <div class="c-slidebar-menu  js-slidebar-menu is-top-to-bottom" style="outline: none;" inert="true">
   <div class="c-slidebar-menu__inner">
@@ -183,8 +186,78 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="c-slidebar-menu__overlay"></div>
 
+<header>
+  <div class="header-all">
+      <div class="header-upper">
+          <div class="header-logo">
+              <a class="header-logo" href="#"><img src="../img/fshd/fshd_header-logo.jpg" alt="" height="50px"></a>
+              <p class="logo-text">株式会社ファイナンシャルサービスホールディングス</p> 
+          </div>
+          <!-- <span class="material-icons" id="open-btn">menu</span> -->
+          <span class="material-icons close-btn-text" id="close-btn">
+              close
+          </span>
+      </div>
 
-<header class="l-header is-top" style="opacity: 1;">
+
+       <!-- ハンバーガーメニューのアイコン -->
+
+       <div class="hamburger material-icons" id="open-btn">
+          <span></span>
+          <span></span>
+        </div>
+
+      <nav class="header-under">
+          <div class="index">
+              <ul class="top index-main">
+                  <li>
+                      <a class="index-text" href="#">ホーム <span class="index-text-english">HOME</span>
+                          </a>
+                  </li>
+              </ul>
+
+              <ul class="index-main">
+                  <li>
+                      <div class="accordion">
+                      <a class="index-text" href="#">事業内容 <span class="index-text-english">BUSINESS</span>
+                      </a>
+                        </div>
+                  </li>
+              </ul>
+              <ul class="index-main">
+                  <li>
+                      <div class="accordion">
+                      <a class="index-text" href="#">採用情報 <span class="index-text-english">RECRUIT</span>
+                      </a>
+                      <button class="toggle-btn">＋</button>
+                  </div>
+                          <div class="accordion-content">
+                              <a href="#" class="index-more">経営幹部採用</a>
+                              <a href="#" class="index-more">社員採用</a>
+                              <a href="#" class="index-more">アルバイト採用</a>
+                            </div>
+                  </li>
+              </ul>
+              <ul class="index-main">
+                  <li>
+                      <div class="accordion">
+                      <a class="index-text" href="#">お問い合わせ <span class="index-text-english">CONTACT</span></a>
+                      <button class="toggle-btn">＋</button>
+                  </div>
+                          <div class="accordion-content">
+                              <a href="#" class="index-more">採用に関するお問い合わせ</a>
+                              <a href="#" class="index-more">業務提携に関するお問い合わせ</a>
+                              <a href="#" class="index-more">会社・取材に関するお問い合わせ</a>
+                              <a href="#" class="index-more">営業の方はこちら</a>
+                            </div>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </div>
+</header>
+
+<!-- <header class="l-header is-top" style="opacity: 1;">
   <div class="l-header__content">
     <div class="l-header__logo"><a href="/"><img src="../img/fshd/header-img-fshd.png" alt="MINAMI AOYAMA ADVISORY GROUP" height="90%"></a>
     </div>
@@ -209,9 +282,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="https://minami-aoyama.jp/recruit/">採用情報</a>
         </li>
       </ul>
-    </nav><a class="l-header__button c-button is-sm is-secondary" href="https://minami-aoyama.jp/contact/">お問い合わせ</a>
+    </nav><a class="l-header__button c-button is-sm is-secondary" href="#">お問い合わせ</a>
   </div>
-</header>
+</header> -->
 
 <!-- <style>
 	.l-header,
@@ -652,6 +725,7 @@ var wpcf7 = {"api":{"root":"https:\/\/minami-aoyama.jp\/wp-json\/","namespace":"
 </script>
 <script type="text/javascript" src="https://minami-aoyama.jp/wp/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.3" id="contact-form-7-js"></script>
 <script src="../js/fshd.js"></script>
+<script src="../js/main.js"></script>
 </body>
 
 </html>
