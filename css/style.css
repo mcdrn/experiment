@@ -1866,3 +1866,6 @@ body {
     font-weight: bold;
   }
   
+  .news-section iframe{
+    height: 700px; !important;
+  }
