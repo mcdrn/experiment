@@ -1867,5 +1867,17 @@ body {
   }
   
   .news-section iframe{
-    height: 700px; !important;
+    height: 700px !important;
   }
+
+  /* html, body {
+    background-color: #000;
+  } */
+
+  .l-footer::after {
+    content: "";
+    display: block;
+    height: 100px; /* iPhoneのバウンド時に見える範囲をカバー */
+    background-color: #000;
+  }
+  
