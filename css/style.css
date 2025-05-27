@@ -1874,10 +1874,10 @@ body {
     background-color: #000;
   } */
 
-  .footer-wrap::after {
+  /* .footer-wrap::after {
     content: "";
     display: block;
-    height: 100px; /* iPhoneのバウンド時に見える範囲をカバー */
+    height: 100px; iPhoneのバウンド時に見える範囲をカバー
     background-color: #000;
-  }
+  } */
   
