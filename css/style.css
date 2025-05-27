@@ -1874,7 +1874,7 @@ body {
     background-color: #000;
   } */
 
-  .l-footer::after {
+  .footer-wrap::after {
     content: "";
     display: block;
     height: 100px; /* iPhoneのバウンド時に見える範囲をカバー */
