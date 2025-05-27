@@ -1867,7 +1867,7 @@ body {
   }
   
   .news-section iframe{
-    height: 700px !important;
+    min-height: 700px !important;
   }
 
   /* html, body {
