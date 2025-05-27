@@ -1590,7 +1590,7 @@ body button {
 
 .l-footer__contact {
     align-items: center;
-    color: #fff;
+    color: #fff !important;
     display: flex;
     flex-direction: column;
     height: 320px;
