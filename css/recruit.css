@@ -2789,7 +2789,8 @@ header #global-menu .menu_wrap .under_menu .um_btn_area .link_corp {
 }
 
 .subpage_mv2 .page_title .category {
-	font-size: 15px;   
+	font-size: 15px; 
+    line-height: 1;  
 }
 
 .subpage_mv2 .page_title .title { 

@@ -54,7 +54,13 @@ footer{
     /* background: linear-gradient(120deg, #0f172a, #1e3a8a); */
     /* background: linear-gradient(120deg, #1e3a8a, #0f766e); */
     /* background: linear-gradient(120deg, #334155, #94a3b8); */
-    background: linear-gradient(120deg, #1e40af, #facc15);
+    /* background: linear-gradient(120deg, #1e40af, #facc15); */
+    background: linear-gradient(to bottom right,
+  #003366,   /* 深めのネイビー */
+  #005f73,   /* 青緑（ディープシアン） */
+  #0a9396    /* 明るめのミントグリーン */
+);
+
 
     background-size: 300% 300%;
     animation: bggradient 15s ease infinite;
@@ -100,4 +106,13 @@ p{
 
 .item-title{
     color: #fff;
+}
+
+.cotegory-en{
+    text-align: center;
+    font-size: 13px;
+}
+
+.item-title{
+    border-bottom: solid 1px #fff !important;
 }
